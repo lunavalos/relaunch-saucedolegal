@@ -1,0 +1,115 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --color-primary: #3B3C3D;
+    --color-secondary: #959597;
+    --color-text-main: #ffffff;
+    --color-accent: #959597;
+    --ease-studio: cubic-bezier(0.16, 1, 0.3, 1);
+    --ease-curtain: cubic-bezier(0.76, 0, 0.24, 1);
+  }
+
+  html {
+    scroll-behavior: smooth;
+  }
+
+  body {
+    font-family: var(--font-lora), Georgia, serif;
+    background-color: #0d0e10;
+    color: #ffffff;
+    overflow-x: hidden;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    font-family: var(--font-lora), Georgia, serif;
+  }
+}
+
+.font-lora {
+  font-family: var(--font-lora), Georgia, serif !important;
+}
+
+.font-raleway {
+  font-family: var(--font-raleway), -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif !important;
+}
+
+/* Custom scrollbars */
+::-webkit-scrollbar {
+  width: 8px;
+}
+::-webkit-scrollbar-track {
+  background: #111213;
+}
+::-webkit-scrollbar-thumb {
+  background: #3B3C3D;
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #959597;
+}
+
+/* =========================================================================
+   STUDIO FOUNDRY ENTRANCE ANIMATIONS (EASE: CUBIC-BEZIER(0.16, 1, 0.3, 1))
+   ========================================================================= */
+
+[data-reveal] {
+  opacity: 0;
+  transform: translateY(28px);
+  will-change: transform, opacity;
+  transition-property: opacity, transform;
+  transition-duration: 0.85s;
+  transition-timing-function: cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+[data-reveal="fade"] {
+  transform: none;
+  transition-duration: 0.75s;
+}
+
+[data-reveal="scale"] {
+  transform: scale(0.96) translateY(20px);
+  transition-duration: 0.85s;
+}
+
+/* Active In-View State */
+[data-reveal].is-revealed {
+  opacity: 1 !important;
+  transform: translateY(0) translateX(0) scale(1) !important;
+}
+
+/* Line-Mask Reveal Utility (Text reveals upwards smoothly) */
+.reveal-mask {
+  overflow: hidden;
+  display: block;
+}
+
+.reveal-mask > * {
+  display: block;
+  transform: translateY(110%);
+  opacity: 0;
+  will-change: transform, opacity;
+  transition: transform 0.9s cubic-bezier(0.16, 1, 0.3, 1), opacity 0.9s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+/* Ensure any revealed child or parent instantly makes the text visible */
+.reveal-mask > .is-revealed,
+.reveal-mask.is-revealed > *,
+.is-revealed.reveal-mask > *,
+.is-revealed .reveal-mask > *,
+[data-reveal].is-revealed {
+  transform: translateY(0) !important;
+  opacity: 1 !important;
+}
+
+/* Stagger Helpers */
+.delay-75 { transition-delay: 75ms !important; }
+.delay-100 { transition-delay: 100ms !important; }
+.delay-150 { transition-delay: 150ms !important; }
+.delay-200 { transition-delay: 200ms !important; }
+.delay-225 { transition-delay: 225ms !important; }
+.delay-300 { transition-delay: 300ms !important; }
+.delay-375 { transition-delay: 375ms !important; }
+.delay-450 { transition-delay: 450ms !important; }
