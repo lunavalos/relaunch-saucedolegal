@@ -426,6 +426,20 @@ export async function seed() {
     }
   }
 
+  // 6. Seed Portada Global
+  console.log('Seeding Portada (Homepage) global...')
+  await payload.updateGlobal({
+    slug: 'portada',
+    locale: 'es',
+    data: {
+      eyebrow: 'ASESORÍA LEGAL CORPORATIVA',
+      title: 'MÁS DE 20 AÑOS DE EXPERIENCIA',
+      subtitle: 'CONTRIBUYENDO CON EL ÉXITO DE NUESTROS CLIENTES',
+      buttonText: 'CONTACTO',
+      buttonLink: '/contacto',
+    },
+  })
+
   console.log('--- Payload CMS Seed Finished Successfully! ---')
   process.exit(0)
 }

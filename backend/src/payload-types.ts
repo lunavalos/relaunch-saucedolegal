@@ -96,8 +96,12 @@ export interface Config {
   };
   fallbackLocale:
     ('false' | 'none' | 'null') | false | null | ('es' | 'en' | 'zh' | 'ko') | ('es' | 'en' | 'zh' | 'ko')[];
-  globals: {};
-  globalsSelect: {};
+  globals: {
+    portada: Portada;
+  };
+  globalsSelect: {
+    portada: PortadaSelect<false> | PortadaSelect<true>;
+  };
   locale: 'es' | 'en' | 'zh' | 'ko';
   widgets: {
     collections: CollectionsWidget;
@@ -500,6 +504,49 @@ export interface PayloadMigrationsSelect<T extends boolean = true> {
   batch?: T;
   updatedAt?: T;
   createdAt?: T;
+}
+/**
+ * This interface was referenced by `Config`'s JSON-Schema
+ * via the `definition` "portada".
+ */
+export interface Portada {
+  id: number;
+  /**
+   * Sube el video principal que se reproducirá en bucle en el fondo de la página de inicio.
+   */
+  videoFile?: (number | null) | Media;
+  /**
+   * Opcional: enlaces directos a un archivo .mp4 o .webm si no subes archivo arriba.
+   */
+  videoUrl?: string | null;
+  /**
+   * Imagen que se muestra mientras carga el video o como fondo si no hay video.
+   */
+  posterImage?: (number | null) | Media;
+  eyebrow?: string | null;
+  title?: string | null;
+  subtitle?: string | null;
+  buttonText?: string | null;
+  buttonLink?: string | null;
+  updatedAt?: string | null;
+  createdAt?: string | null;
+}
+/**
+ * This interface was referenced by `Config`'s JSON-Schema
+ * via the `definition` "portada_select".
+ */
+export interface PortadaSelect<T extends boolean = true> {
+  videoFile?: T;
+  videoUrl?: T;
+  posterImage?: T;
+  eyebrow?: T;
+  title?: T;
+  subtitle?: T;
+  buttonText?: T;
+  buttonLink?: T;
+  updatedAt?: T;
+  createdAt?: T;
+  globalType?: T;
 }
 /**
  * This interface was referenced by `Config`'s JSON-Schema

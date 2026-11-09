@@ -10,6 +10,7 @@ import { Equipo } from './collections/Equipo'
 import { AreaPractica } from './collections/AreaPractica'
 import { Galeria } from './collections/Galeria'
 import { Videos } from './collections/Videos'
+import { Portada } from './globals/Portada'
 
 const filename = fileURLToPath(import.meta.url)
 const dirname = path.dirname(filename)
@@ -44,6 +45,9 @@ export default buildConfig({
     AreaPractica,
     Galeria,
     Videos,
+  ],
+  globals: [
+    Portada,
   ],
   localization: {
     locales: [

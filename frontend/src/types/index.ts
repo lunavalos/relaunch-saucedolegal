@@ -67,3 +67,15 @@ export interface VideoItem {
   featured?: boolean;
   order?: number;
 }
+
+export interface PortadaConfig {
+  id?: string | number;
+  videoFile?: string | MediaItem | null;
+  videoUrl?: string | null;
+  posterImage?: string | MediaItem | null;
+  eyebrow?: string | null;
+  title?: string | null;
+  subtitle?: string | null;
+  buttonText?: string | null;
+  buttonLink?: string | null;
+}

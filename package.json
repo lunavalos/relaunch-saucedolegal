@@ -10,7 +10,8 @@
     "build:backend": "cd backend && npm run build",
     "build:frontend": "cd frontend && npm run build",
     "build": "npm run build:backend && npm run build:frontend",
-    "seed": "cd backend && npx tsx src/seed.ts"
+    "seed": "cd backend && npx tsx src/seed.ts",
+    "import:json": "cd backend && npx tsx import-json.mjs"
   },
   "devDependencies": {
     "concurrently": "^9.1.2"

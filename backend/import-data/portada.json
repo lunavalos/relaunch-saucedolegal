@@ -1,0 +1,36 @@
+{
+  "videoFile": "/media/abogados-saltillo-saucedo-legal.webm",
+  "videoUrl": "",
+  "posterImage": "/media/saucedo-legal-consultoria-mediacion.jpg",
+  "eyebrow": {
+    "es": "ASESORÍA LEGAL CORPORATIVA",
+    "en": "CORPORATE LEGAL ADVISORY",
+    "zh": "企业法律咨询",
+    "ko": "기업 법률 자문"
+  },
+  "title": {
+    "es": "MÁS DE 20 AÑOS DE EXPERIENCIA",
+    "en": "OVER 20 YEARS OF EXPERIENCE",
+    "zh": "二十余年专业经验",
+    "ko": "20년 이상의 풍부한 경험"
+  },
+  "subtitle": {
+    "es": "CONTRIBUYENDO CON EL ÉXITO DE NUESTROS CLIENTES",
+    "en": "CONTRIBUTING TO OUR CLIENTS' SUCCESS",
+    "zh": "助力客户迈向商业成功",
+    "ko": "고객의 성공과 함께합니다"
+  },
+  "buttonText": {
+    "es": "CONTACTO",
+    "en": "CONTACT",
+    "zh": "联系我们",
+    "ko": "문의하기"
+  },
+  "buttonLink": {
+    "es": "/contacto",
+    "en": "/en/contact",
+    "zh": "/zh/contact",
+    "ko": "/ko/contact"
+  }
+}
+

@@ -1,4 +1,4 @@
-import { PracticeArea, TeamMember, GalleryItem, GalleryCategory, VideoItem, Language } from '../types';
+import { PracticeArea, TeamMember, GalleryItem, GalleryCategory, VideoItem, PortadaConfig, Language } from '../types';
 
 const API_URL = process.env.NEXT_PUBLIC_PAYLOAD_API_URL || 'http://localhost:3000/api';
 
@@ -435,5 +435,22 @@ export const api = {
       console.warn('[Payload CMS] No se pudo conectar al backend para videos, usando fallback.', err);
     }
     return fallbackVideos;
+  },
+
+  async getPortada(locale: Language = 'es'): Promise<PortadaConfig | null> {
+    try {
+      const res = await fetch(`${API_URL}/globals/portada?locale=${locale}&depth=2`, {
+        cache: 'no-store',
+      });
+      if (res.ok) {
+        const data = await res.json();
+        if (data) {
+          return data;
+        }
+      }
+    } catch (err) {
+      console.warn('[Payload CMS] No se pudo conectar al backend para portada, usando fallback.', err);
+    }
+    return null;
   }
 };

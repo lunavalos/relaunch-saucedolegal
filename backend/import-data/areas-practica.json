@@ -1,0 +1,266 @@
+[
+  {
+    "slug": "propiedad-intelectual",
+    "icon": "fa-solid fa-registered",
+    "image": "/images/propiedad-intelectual.webp",
+    "order": 1,
+    "title": {
+      "es": "Propiedad Intelectual",
+      "en": "Intellectual Property",
+      "zh": "知识产权",
+      "ko": "지적 재산권"
+    },
+    "shortDescription": {
+      "es": "Protegemos los activos intangibles de nuestros clientes con asesoría integral en propiedad industrial y derechos de autor.",
+      "en": "We protect our clients' intangible assets with comprehensive advice on industrial property and copyright.",
+      "zh": "我们通过工业产权与著作权领域的全方位咨询，保护客户的无形资产。",
+      "ko": "산업재산권 및 저작권에 관한 종합 자문을 통해 고객의 무형 자산을 보호합니다."
+    },
+    "fullDescription": {
+      "es": "Protegemos los activos intangibles de nuestros clientes. Brindamos asesoría integral en materia de propiedad industrial y derechos de autor: registro de marcas, patentes, modelos de utilidad y diseños industriales, así como la redacción y negociación de contratos de licencia, cesión y franquicia.\n\nNuestro equipo acompaña a emprendedores, empresas y creadores en la defensa de sus derechos frente a infracciones, oposiciones y nulidades, procurando que su innovación y creatividad se traduzcan en ventajas competitivas sólidas y sostenibles.",
+      "en": "We protect our clients' intangible assets. We provide comprehensive advice on industrial property and copyright: registration of trademarks, patents, utility models and industrial designs, as well as drafting and negotiating license, assignment and franchise agreements.\n\nOur team supports entrepreneurs, companies and creators in defending their rights against infringements, oppositions and nullity actions, ensuring that their innovation and creativity translate into solid, sustainable competitive advantages.",
+      "zh": "我们保护客户的无形资产。在工业产权与著作权领域提供全方位咨询：商标、专利、实用新型与工业品外观设计的注册，以及许可、转让与特许经营合同的起草与谈判。\n\n我们的团队陪伴创业者、企业与创作者，捍卫其权利，应对侵权、异议与无效程序，努力使其创新与创意转化为稳固、可持续的竞争优势。",
+      "ko": "고객의 무형 자산을 보호합니다. 산업재산권 및 저작권 분야에서 종합 자문을 제공합니다. 상표, 특허, 실용신안 및 산업디자인 등록은 물론, 라이선스, 양도 및 프랜차이즈 계약의 작성과 협상을 지원합니다.\n\n저희 팀은 침해, 이의신청 및 무효 절차에 맞서 기업가, 기업 및 창작자의 권리를 수호하며, 그들의 혁신과 창의성이 견고하고 지속 가능한 경쟁 우위로 이어지도록 돕습니다."
+    }
+  },
+  {
+    "slug": "derecho-penal",
+    "icon": "fa-solid fa-handcuffs",
+    "image": "/images/derecho-penal.webp",
+    "order": 2,
+    "title": {
+      "es": "Derecho Penal",
+      "en": "Criminal Law",
+      "zh": "刑法",
+      "ko": "형법"
+    },
+    "shortDescription": {
+      "es": "Defensa legal y asesoría integral en todas las etapas del proceso penal, con respeto irrestricto a los derechos humanos.",
+      "en": "Legal defense and comprehensive advice at every stage of criminal proceedings, with strict respect for human rights.",
+      "zh": "在刑事诉讼的各个阶段提供法律辩护与全方位咨询，严格尊重人权。",
+      "ko": "형사 절차의 모든 단계에서 인권을 엄격히 존중하며 법률 변호와 종합 자문을 제공합니다."
+    },
+    "fullDescription": {
+      "es": "Brindamos defensa legal y asesoría integral en todas las etapas del proceso penal, desde la investigación hasta la sentencia, garantizando el respeto irrestricto a los derechos humanos de nuestros clientes y una estrategia procesal sólida y fundamentada.\n\nRepresentamos a imputados y víctimas, con enfoque en delitos patrimoniales, financieros, corporativos, contra la salud y delitos cometidos por servidores públicos. Nuestra actuación se basa en un profundo conocimiento del Sistema Penal Acusatorio y en una atención personalizada, oportuna y discreta.",
+      "en": "We provide legal defense and comprehensive advice at every stage of criminal proceedings, from investigation to sentencing, guaranteeing strict respect for our clients' human rights and a solid, well-founded procedural strategy.\n\nWe represent defendants and victims, focusing on property, financial and corporate crimes, crimes against health, and crimes committed by public officials. Our work is based on a deep knowledge of the Accusatory Criminal Justice System and on personalized, timely and discreet attention.",
+      "zh": "我们在刑事诉讼的各个阶段，从侦查到判决，提供法律辩护与全方位咨询，严格保障客户的人权，并制定扎实、有依据的诉讼策略。\n\n我们代理被告人与被害人，专注于财产犯罪、金融犯罪、公司犯罪、危害健康犯罪以及公职人员犯罪。我们的工作建立在对刑事控诉制度的深入了解之上，并提供个性化、及时而谨慎的服务。",
+      "ko": "수사부터 판결까지 형사 절차의 모든 단계에서 법률 변호와 종합 자문을 제공하며, 고객의 인권을 엄격히 존중하고 견고하고 근거 있는 소송 전략을 보장합니다.\n\n피고인과 피해자를 대리하며, 재산 범죄, 금융 범죄, 기업 범죄, 보건 관련 범죄 및 공무원이 저지른 범죄에 중점을 둡니다. 저희 업무는 형사 고소 제도에 대한 깊은 이해와 맞춤형, 적시, 신중한 서비스를 바탕으로 합니다."
+    }
+  },
+  {
+    "slug": "servicios-ambientales",
+    "icon": "fa-solid fa-leaf",
+    "image": "/images/servicios-ambientales.webp",
+    "order": 3,
+    "title": {
+      "es": "Servicios Ambientales",
+      "en": "Environmental Services",
+      "zh": "环境服务",
+      "ko": "환경 서비스"
+    },
+    "shortDescription": {
+      "es": "Acompañamos a empresas, organizaciones y particulares en el cumplimiento de la normatividad ambiental.",
+      "en": "We support companies, organizations and individuals in complying with environmental regulations.",
+      "zh": "我们陪伴企业、组织与个人遵守环境法规。",
+      "ko": "기업, 단체 및 개인이 환경 법규를 준수하도록 지원합니다."
+    },
+    "fullDescription": {
+      "es": "Acompañamos a empresas, organizaciones y particulares en el cumplimiento de la normatividad ambiental a través de servicios especializados en materia legal, administrativa y técnica. Nuestra labor incluye la gestión de permisos, licencias y autorizaciones, la elaboración de estudios de impacto ambiental, así como la atención de trámites y procedimientos ante todo tipo de autoridades ambientales. Con un enfoque integral, realizamos auditorías ambientales, gestionamos la atención de requerimientos derivados de visitas de inspección, así como la interposición de recursos y medios de defensa necesarios para la solución de problemáticas ambientales, protegiendo los derechos de nuestros clientes y fomentando prácticas sostenibles y responsables con el entorno.",
+      "en": "We support companies, organizations and individuals in complying with environmental regulations through specialized legal, administrative and technical services. Our work includes obtaining permits, licenses and authorizations, preparing environmental impact studies, and handling procedures before all types of environmental authorities. With a comprehensive approach, we conduct environmental audits, respond to requirements arising from inspection visits, and file the appeals and defense mechanisms needed to resolve environmental issues, protecting our clients' rights and promoting sustainable, environmentally responsible practices.",
+      "zh": "我们通过法律、行政与技术领域的专业服务，陪伴企业、组织与个人遵守环境法规。我们的工作包括办理许可、执照与授权，编制环境影响评价，以及处理各类环境主管部门的手续与程序。凭借综合性的工作方法，我们开展环境审计，处理检查访问所产生的要求，并提出解决环境问题所需的申诉与辩护手段，保护客户的权利，推动可持续、负责任的环境实践。",
+      "ko": "법률, 행정 및 기술 분야의 전문 서비스를 통해 기업, 단체 및 개인이 환경 법규를 준수하도록 지원합니다. 저희 업무에는 허가, 면허 및 인허가 취득, 환경영향평가서 작성, 각종 환경 당국 앞에서의 절차 처리가 포함됩니다. 통합적인 접근으로 환경 감사를 수행하고, 현장 점검에서 비롯된 요구 사항에 대응하며, 환경 문제 해결에 필요한 이의제기 및 방어 수단을 제기하여 고객의 권리를 보호하고 지속 가능하고 환경에 책임 있는 관행을 장려합니다."
+    }
+  },
+  {
+    "slug": "derecho-migratorio",
+    "icon": "fa-solid fa-passport",
+    "image": "/images/derecho-migratorio.webp",
+    "order": 4,
+    "title": {
+      "es": "Derecho Migratorio",
+      "en": "Immigration Law",
+      "zh": "移民法",
+      "ko": "이민법"
+    },
+    "shortDescription": {
+      "es": "Asesoría en estancias, residencias, visas de trabajo, regularización migratoria y naturalización.",
+      "en": "Advice on stays, residencies, work visas, immigration regularization and naturalization.",
+      "zh": "提供居留、住所、工作签证、移民身份规范化与入籍方面的咨询。",
+      "ko": "체류, 거주, 취업 비자, 이민 신분 정규화 및 귀화에 관한 자문을 제공합니다."
+    },
+    "fullDescription": {
+      "es": "Asesoramos a personas y empresas en trámites de estancias, residencias y visas de trabajo, así como en casos de regularización migratoria y naturalización. Con un servicio atento y personalizado, acompañamos a nuestros clientes de manera clara y oportuna, anticipando obstáculos y diseñando estrategias eficaces para facilitar sus procesos migratorios conforme al marco legal vigente.",
+      "en": "We advise individuals and companies on stay, residency and work visa procedures, as well as on immigration regularization and naturalization cases. With attentive, personalized service, we support our clients clearly and promptly, anticipating obstacles and designing effective strategies to facilitate their immigration processes in accordance with the current legal framework.",
+      "zh": "我们为个人与企业提供居留、住所与工作签证手续，以及移民身份规范化与入籍案件方面的咨询。凭借细致、个性化的服务，我们以清晰、及时的方式陪伴客户，预见障碍并制定有效策略，依据现行法律框架便利其移民流程。",
+      "ko": "체류, 거주 및 취업 비자 절차와 이민 신분 정규화 및 귀화 사건에 관해 개인과 기업에 자문을 제공합니다. 세심하고 맞춤형 서비스를 통해 명확하고 적시에 고객을 지원하며, 장애물을 미리 파악하고 현행 법률 체계에 따라 이민 절차를 원활히 진행할 수 있는 효과적인 전략을 설계합니다."
+    }
+  },
+  {
+    "slug": "derecho-laboral",
+    "icon": "fa-solid fa-users",
+    "image": "/images/derecho-laboral.webp",
+    "order": 5,
+    "title": {
+      "es": "Derecho Laboral",
+      "en": "Labor Law",
+      "zh": "劳动法",
+      "ko": "노동법"
+    },
+    "shortDescription": {
+      "es": "Asesoría a empresas y trabajadores en todas las etapas de la relación laboral.",
+      "en": "Advice to companies and workers at every stage of the employment relationship.",
+      "zh": "为企业与劳动者提供劳动关系各个阶段的咨询。",
+      "ko": "노사 관계의 모든 단계에서 기업과 근로자에게 자문을 제공합니다."
+    },
+    "fullDescription": {
+      "es": "Asesoramos a empresas y trabajadores en todas las etapas de la relación laboral. Elaboramos y revisamos contratos, reglamentos internos y políticas laborales, además de representar a nuestros clientes en juicios laborales, negociaciones colectivas y conciliaciones ante autoridades competentes. Nuestro enfoque busca equilibrar los intereses de las partes, cumpliendo con la normatividad vigente y fomentando relaciones laborales justas y productivas.",
+      "en": "We advise companies and workers at every stage of the employment relationship. We draft and review contracts, internal regulations and labor policies, and we represent our clients in labor lawsuits, collective bargaining and conciliations before the competent authorities. Our approach seeks to balance the interests of the parties, complying with current regulations and fostering fair, productive labor relations.",
+      "zh": "我们为企业与劳动者提供劳动关系各个阶段的咨询。我们起草与审查合同、内部规章与劳动政策，并在劳动诉讼、集体谈判与主管机关调解中代理客户。我们的方法旨在平衡各方利益，遵守现行法规，促进公平、高效的劳动关系。",
+      "ko": "노사 관계의 모든 단계에서 기업과 근로자에게 자문을 제공합니다. 계약서, 내부 규정 및 노동 정책을 작성·검토하고, 노동 소송, 단체교섭 및 관할 당국 앞에서의 조정에서 고객을 대리합니다. 저희 접근법은 현행 법규를 준수하면서 당사자들의 이익을 균형 있게 조율하고, 공정하고 생산적인 노사 관계를 촉진하는 것을 목표로 합니다."
+    }
+  },
+  {
+    "slug": "seguridad-social",
+    "icon": "fa-solid fa-shield-halved",
+    "image": "/images/seguridad-social.webp",
+    "order": 6,
+    "title": {
+      "es": "Seguridad Social",
+      "en": "Social Security",
+      "zh": "社会保障",
+      "ko": "사회보장"
+    },
+    "shortDescription": {
+      "es": "Asesoría integral a patrones y trabajadores en seguridad social, cumplimiento y defensa de sus intereses.",
+      "en": "Comprehensive advice to employers and workers on social security, compliance and the defense of their interests.",
+      "zh": "为雇主与劳动者提供社会保障、合规与权益维护方面的全方位咨询。",
+      "ko": "사회보장, 법규 준수 및 권익 보호에 관해 사용자와 근로자에게 종합 자문을 제공합니다."
+    },
+    "fullDescription": {
+      "es": "La seguridad social representa un pilar fundamental en la protección de los derechos de los trabajadores y sus familias. En nuestro despacho, nos especializamos en asesorar tanto a patrones como a trabajadores en todos los aspectos relacionados con este ámbito, garantizando el cumplimiento de la normativa vigente y la defensa de sus intereses.\n\nEl sistema de seguridad social en México abarca diversos subsistemas, entre ellos el Instituto Mexicano del Seguro Social (IMSS), el Instituto de Seguridad y Servicios Sociales de los Trabajadores del Estado (ISSSTE) y el Instituto del Fondo Nacional de la Vivienda para los Trabajadores (INFONAVIT). Cada uno de estos organismos ofrece servicios específicos que incluyen atención médica, subsidios, pensiones, créditos de vivienda, implicando el cumplimiento de diversas obligaciones y cargas administrativas para los patrones y contribuyentes.\n\nEn nuestro despacho, brindamos asesoría integral en la gestión y resolución de cuestiones relacionadas con la seguridad social, asegurando que nuestros clientes cumplan con sus obligaciones legales y aprovechen los beneficios que la ley les otorga. Además, implementamos y operamos estrategias de cumplimiento, apoyados en el uso de tecnología, para proteger los intereses de nuestros clientes y fomentar relaciones laborales sostenibles, basadas en la responsabilidad y el compromiso mutuo.",
+      "en": "Social security is a fundamental pillar in protecting the rights of workers and their families. At our firm, we specialize in advising both employers and workers on all aspects of this field, ensuring compliance with current regulations and defending their interests.\n\nThe social security system in Mexico encompasses several subsystems, including the Mexican Social Security Institute (IMSS), the Institute of Security and Social Services for State Workers (ISSSTE), and the National Workers' Housing Fund Institute (INFONAVIT). Each of these bodies offers specific services, including medical care, subsidies, pensions and housing loans, which entail various obligations and administrative burdens for employers and taxpayers.\n\nAt our firm, we provide comprehensive advice on managing and resolving social security matters, ensuring that our clients meet their legal obligations and take advantage of the benefits the law provides. We also implement and operate compliance strategies, supported by technology, to protect our clients' interests and foster sustainable labor relations based on responsibility and mutual commitment.",
+      "zh": "社会保障是保护劳动者及其家庭权利的基本支柱。在本所，我们专门为雇主与劳动者提供该领域各方面的咨询，确保遵守现行法规并维护其利益。\n\n墨西哥的社会保障体系涵盖多个子系统，包括墨西哥社会保障局（IMSS）、国家公务员社会保障与服务局（ISSSTE）以及国家工人住房基金局（INFONAVIT）。每个机构都提供特定服务，包括医疗、补贴、养老金与住房贷款，这给雇主与纳税人带来多项义务与行政负担。\n\n在本所，我们就社会保障相关事务的管理与解决提供全方位咨询，确保客户履行法定义务并享有法律赋予的权益。此外，我们借助技术实施并执行合规策略，以保护客户利益，促进建立在责任与相互承诺基础上的可持续劳动关系。",
+      "ko": "사회보장은 근로자와 그 가족의 권리를 보호하는 근본적인 기둥입니다. 저희 사무소는 이 분야의 모든 측면에서 사용자와 근로자 모두에게 자문하는 것을 전문으로 하며, 현행 법규 준수와 권익 보호를 보장합니다.\n\n멕시코의 사회보장 제도는 멕시코 사회보장원(IMSS), 국가공무원 사회보장·복지원(ISSSTE), 국가근로자주택기금원(INFONAVIT) 등 여러 하위 제도를 포함합니다. 각 기관은 의료, 보조금, 연금, 주택 대출 등 특정 서비스를 제공하며, 이는 사용자와 납세자에게 다양한 의무와 행정적 부담을 수반합니다.\n\n저희 사무소는 사회보장 관련 사안의 관리와 해결에 대해 종합 자문을 제공하여 고객이 법적 의무를 이행하고 법률이 부여하는 혜택을 누릴 수 있도록 합니다. 또한 기술을 활용하여 컴플라이언스 전략을 수립·운영함으로써 고객의 이익을 보호하고, 책임과 상호 약속에 기반한 지속 가능한 노사 관계를 촉진합니다."
+    }
+  },
+  {
+    "slug": "derecho-fiscal",
+    "icon": "fa-solid fa-file-invoice-dollar",
+    "image": "/images/derecho-fiscal.webp",
+    "order": 7,
+    "title": {
+      "es": "Derecho Fiscal",
+      "en": "Tax Law",
+      "zh": "税法",
+      "ko": "세법"
+    },
+    "shortDescription": {
+      "es": "Asesoría especializada en cumplimiento de obligaciones fiscales, planeación fiscal y defensa legal.",
+      "en": "Specialized advice on tax compliance, tax planning and legal defense.",
+      "zh": "提供税务合规、税务筹划与法律辩护方面的专业咨询。",
+      "ko": "세무 준수, 세무 계획 및 법률 방어에 관한 전문 자문을 제공합니다."
+    },
+    "fullDescription": {
+      "es": "Ofrecemos asesoría especializada en el cumplimiento de obligaciones fiscales y en la planeación fiscal de empresas y personas físicas. Acompañamos a nuestros clientes en auditorías, revisiones y procedimientos ante autoridades como el SAT, procurando que sus operaciones se realicen conforme a la ley y con la mayor eficiencia posible.\n\nTambién brindamos defensa legal en materia fiscal, interponiendo recursos, juicios contenciosos administrativos y amparos cuando sea necesario, para proteger los derechos de nuestros clientes frente a actos de autoridad. Nuestro compromiso es ofrecer soluciones claras, estratégicas y a medida para cada caso.",
+      "en": "We offer specialized advice on tax compliance and tax planning for companies and individuals. We support our clients in audits, reviews and proceedings before authorities such as the SAT (Tax Administration Service), ensuring that their operations are carried out in accordance with the law and as efficiently as possible.\n\nWe also provide legal defense in tax matters, filing appeals, administrative litigation and amparo proceedings when necessary, to protect our clients' rights against acts of authority. Our commitment is to offer clear, strategic, tailored solutions for each case.",
+      "zh": "我们为企业与个人提供税务合规与税务筹划方面的专业咨询。我们陪伴客户应对税务局（SAT）等主管机关的审计、审查与程序，确保其业务依法开展并尽可能高效。\n\n我们还提供税务领域的法律辩护，在必要时提出申诉、行政诉讼与宪法保护诉讼（amparo），以保护客户免受行政行为侵害。我们的承诺是为每个案件提供清晰、战略性、量身定制的解决方案。",
+      "ko": "기업과 개인을 대상으로 세무 준수 및 세무 계획에 관한 전문 자문을 제공합니다. 국세청(SAT)과 같은 당국 앞에서의 감사, 검토 및 절차에서 고객을 지원하여, 고객의 사업이 법률에 따라 최대한 효율적으로 이루어지도록 합니다.\n\n또한 세무 분야에서 법률 방어를 제공하며, 필요 시 이의신청, 행정소송 및 암파로(amparo) 절차를 제기하여 행정 행위에 맞서 고객의 권리를 보호합니다. 저희는 각 사건마다 명확하고 전략적이며 맞춤형 솔루션을 제공하는 것을 약속합니다."
+    }
+  },
+  {
+    "slug": "derecho-corporativo",
+    "icon": "fa-solid fa-briefcase",
+    "image": "/images/derecho-corporativo.webp",
+    "order": 8,
+    "title": {
+      "es": "Derecho Corporativo",
+      "en": "Corporate Law",
+      "zh": "公司法",
+      "ko": "기업법"
+    },
+    "shortDescription": {
+      "es": "Asesoría jurídica integral en la estructuración, operación y reorganización de sociedades mercantiles, civiles y asociaciones.",
+      "en": "Comprehensive legal advisory in the structuring, operation, and reorganization of commercial and civil corporations.",
+      "zh": "为商事公司、民事组织及协会的设立、运营与重组提供全方位法律咨询。",
+      "ko": "상사 법인, 민사 조합 및 협회의 설립, 운영 및 구조조정에 관한 종합 법률 자문."
+    },
+    "fullDescription": {
+      "es": "Ofrecemos asesoría jurídica integral en la estructuración, operación y reorganización de personas morales, incluyendo la constitución, contratación, acuerdos estratégicos y gobierno corporativo, manejando todo proceso con absoluto profesionalismo y discreción. También representamos a nuestros clientes en arbitrajes y litigios comerciales. Nuestro propósito no es únicamente proteger los intereses de las empresas y los empresarios, sino impulsar su crecimiento y su fortalecimiento operativo en un entorno legal cada vez más dinámico, cumpliendo con la normatividad vigente y fomentando una gestión empresarial responsable y sostenible.",
+      "en": "We offer comprehensive legal counsel in the structuring, operation, and reorganization of legal entities, including incorporation, contracting, strategic agreements and corporate governance, handling every process with absolute professionalism and discretion. We also represent our clients in arbitrations and commercial litigation. Our purpose is not only to protect the interests of companies and business owners, but to drive their growth and operational strengthening in an increasingly dynamic legal environment, complying with current regulations and fostering responsible, sustainable business management.",
+      "zh": "我们为法人实体（包括商事公司、民事机构及各类协会）的架构设计、日常运营及企业重组提供全方位的法律顾问服务，包括设立、签约、战略协议与公司治理，以绝对的专业精神与谨慎处理每一项事务。我们还代理客户参与仲裁与商事诉讼。我们的目标不仅是保护企业与企业家的利益，更是在日益动态的法律环境中推动其成长与运营强化，遵守现行法规，促进负责任、可持续的企业管理。",
+      "ko": "상사 법인, 민사 법인 및 협회를 포함한 법인의 구조 설계, 운영 및 조직 개편에 관한 포괄적인 법률 자문을 제공합니다. 설립, 계약, 전략적 합의 및 기업 지배구조를 포함하며, 모든 절차를 절대적인 전문성과 신중함으로 처리합니다. 또한 중재 및 상사 소송에서 고객을 대리합니다. 저희 목적은 기업과 기업가의 이익을 보호하는 것뿐만 아니라, 점점 더 역동적인 법률 환경 속에서 현행 법규를 준수하고 책임 있고 지속 가능한 기업 경영을 장려하며 그들의 성장과 운영 강화를 촉진하는 것입니다."
+    }
+  },
+  {
+    "slug": "derecho-mercantil",
+    "icon": "fa-solid fa-piggy-bank",
+    "image": "/images/derecho-mercantil.webp",
+    "order": 9,
+    "title": {
+      "es": "Derecho Mercantil",
+      "en": "Commercial Law",
+      "zh": "商法",
+      "ko": "상법"
+    },
+    "shortDescription": {
+      "es": "Asesoría en contratos mercantiles, títulos de crédito, operaciones comerciales y procedimientos judiciales en la materia.",
+      "en": "Advice on commercial contracts, negotiable instruments, commercial transactions and related court proceedings.",
+      "zh": "提供商事合同、票据、商业交易及相关司法程序方面的咨询。",
+      "ko": "상사 계약, 어음, 상거래 및 관련 소송 절차에 관한 자문을 제공합니다."
+    },
+    "fullDescription": {
+      "es": "Asesoramos a empresas en la negociación y elaboración de contratos mercantiles, títulos de crédito, operaciones comerciales, la constitución y operación de sociedades, transmisión de derechos mercantiles y procedimientos judiciales en la materia, manejando todo proceso con estricta discreción y profesionalismo. Nuestra labor está orientada a resolver los conflictos de intereses de nuestros clientes de la manera más favorable y eficiente posible, garantizando la correcta protección y aprovechamiento de sus derechos, así como la defensa de su patrimonio en el ámbito mercantil.",
+      "en": "We advise companies on negotiating and drafting commercial contracts, negotiable instruments, commercial transactions, the incorporation and operation of companies, the transfer of commercial rights and related court proceedings, handling every process with strict discretion and professionalism. Our work is aimed at resolving our clients' conflicts of interest in the most favorable and efficient way possible, ensuring the proper protection and use of their rights, as well as the defense of their assets in the commercial field.",
+      "zh": "我们为企业提供商事合同谈判与起草、票据、商业交易、公司设立与运营、商事权利转让及相关司法程序方面的咨询，以严格的谨慎与专业精神处理每一项事务。我们的工作旨在以最有利、最高效的方式解决客户的利益冲突，确保其权利得到妥善保护与运用，并捍卫其在商事领域的财产。",
+      "ko": "상사 계약의 협상 및 작성, 어음, 상거래, 회사 설립 및 운영, 상사 권리의 이전 및 관련 소송 절차에 관해 기업에 자문하며, 모든 절차를 엄격한 신중함과 전문성으로 처리합니다. 저희 업무는 고객의 이해 충돌을 가장 유리하고 효율적으로 해결하고, 고객의 권리를 적절히 보호·활용하며, 상사 분야에서 고객의 재산을 수호하는 것을 목표로 합니다."
+    }
+  },
+  {
+    "slug": "derecho-civil",
+    "icon": "fa-solid fa-scale-balanced",
+    "image": "/images/derecho-civil.webp",
+    "order": 10,
+    "title": {
+      "es": "Derecho Civil",
+      "en": "Civil Law",
+      "zh": "民法",
+      "ko": "민법"
+    },
+    "shortDescription": {
+      "es": "Asesoría legal en contratos, obligaciones y propiedad, con énfasis en juicios civiles, arrendamientos, herencias y sucesiones.",
+      "en": "Legal advice on contracts, obligations and property, with an emphasis on civil lawsuits, leases, inheritances and successions.",
+      "zh": "提供合同、债与财产方面的法律咨询，重点是民事诉讼、租赁、继承与遗产承继。",
+      "ko": "계약, 채무 및 재산에 관한 법률 자문을 제공하며, 민사 소송, 임대차, 상속 및 유산 승계에 중점을 둡니다."
+    },
+    "fullDescription": {
+      "es": "Proporcionamos asesoría legal en materia de contratos, obligaciones, y propiedad con énfasis en juicios civiles, arrendamientos, herencias, sucesiones y diversas transacciones realizadas en el marco del derecho privado. Nuestra actividad está orientada en todo momento a proteger el patrimonio y los derechos fundamentales de nuestros clientes, sin perder de vista los objetivos trazados en el diseño de la estrategia legal, con profesionalismo, confidencialidad y absoluto respeto por la condición humana. Todo ello respaldado por un conocimiento actualizado de la legislación del estado de Coahuila, en asuntos civiles, mercantiles y familiares.",
+      "en": "We provide legal advice on contracts, obligations and property, with an emphasis on civil lawsuits, leases, inheritances, successions and various transactions carried out under private law. Our work is always aimed at protecting our clients' assets and fundamental rights, without losing sight of the objectives set out in the design of the legal strategy, with professionalism, confidentiality and absolute respect for the human condition. All of this is backed by up-to-date knowledge of the legislation of the State of Coahuila in civil, commercial and family matters.",
+      "zh": "我们提供合同、债与财产方面的法律咨询，重点是民事诉讼、租赁、继承、遗产承继以及私法框架内的各类交易。我们的工作始终以保护客户的财产与基本权利为导向，在制定法律策略时不偏离既定目标，秉持专业、保密的态度，并绝对尊重人的尊严。所有这些都以对科阿韦拉州民事、商事与家庭事务现行立法的最新了解为支撑。",
+      "ko": "계약, 채무 및 재산에 관한 법률 자문을 제공하며, 민사 소송, 임대차, 상속, 유산 승계 및 사법 체계 내의 다양한 거래에 중점을 둡니다. 저희 업무는 법률 전략 설계 시 설정한 목표를 잃지 않으면서 전문성, 비밀 유지, 인간 조건에 대한 절대적인 존중을 바탕으로 고객의 재산과 기본권을 보호하는 것을 항상 지향합니다. 이 모든 것은 코아우일라 주의 민사, 상사 및 가족 분야 현행 법령에 대한 최신 지식을 바탕으로 합니다."
+    }
+  },
+  {
+    "slug": "familiar",
+    "icon": "fa-solid fa-people-group",
+    "image": "/images/derecho-familiar.webp",
+    "order": 11,
+    "title": {
+      "es": "Derecho Familiar",
+      "en": "Family Law",
+      "zh": "家庭法",
+      "ko": "가족법"
+    },
+    "shortDescription": {
+      "es": "Asesoría legal sensible y profesional en derecho familiar, en vía judicial y mediante mediación o conciliación.",
+      "en": "Sensitive, professional legal advice in family law, through the courts and through mediation or conciliation.",
+      "zh": "提供细致、专业的家庭法法律咨询，可通过诉讼途径，也可通过调解或和解解决。",
+      "ko": "소송을 통해서도, 조정이나 화해를 통해서도 세심하고 전문적인 가족법 법률 자문을 제공합니다."
+    },
+    "fullDescription": {
+      "es": "Proporcionamos asesoría legal sensible y profesional en materia de derecho familiar, con especial atención en procesos de divorcio, guarda y custodia, patria potestad, pensiones alimenticias y régimen de visitas. Nuestro enfoque equilibra el conocimiento técnico con la empatía necesaria para abordar conflictos familiares, priorizando siempre el interés superior de niñas, niños y adolescentes. Ofrecemos alternativas de solución tanto en vía judicial como mediante mecanismos de mediación o conciliación, buscando soluciones duraderas y humanamente responsables.",
+      "en": "We provide sensitive, professional legal advice in family law, with special attention to divorce, custody, parental authority, child support and visitation proceedings. Our approach balances technical knowledge with the empathy needed to address family conflicts, always prioritizing the best interests of children and adolescents. We offer solutions both through the courts and through mediation or conciliation mechanisms, seeking lasting, humane and responsible solutions.",
+      "zh": "我们提供细致、专业的家庭法法律咨询，特别关注离婚、监护、亲权、抚养费与探视权程序。我们的方法在专业知识与处理家庭冲突所需的同理心之间取得平衡，始终以儿童与青少年的最大利益为先。我们既提供诉讼途径的解决方案，也提供调解或和解机制，寻求持久、人性化且负责任的解决办法。",
+      "ko": "이혼, 양육권, 친권, 양육비 및 면접교섭 절차에 특히 주의를 기울이며 세심하고 전문적인 가족법 법률 자문을 제공합니다. 저희 접근법은 가족 갈등을 다루는 데 필요한 공감과 전문 지식을 균형 있게 조화시키며, 항상 아동과 청소년의 최상의 이익을 최우선으로 합니다. 소송을 통한 해결책과 조정 또는 화해 메커니즘을 통한 해결책을 모두 제공하여, 지속 가능하고 인간적이며 책임 있는 해결책을 모색합니다."
+    }
+  }
+]

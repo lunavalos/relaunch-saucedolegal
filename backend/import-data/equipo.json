@@ -1,0 +1,284 @@
+[
+  {
+    "name": "David Alejandro Saucedo Reyes",
+    "slug": "david-alejandro-saucedo-reyes",
+    "email": "dsaucedo@saucedolegal.mx",
+    "phone": "844-343-8333",
+    "photoStanding": "/images/davidpie.webp",
+    "photoSitting": "/images/davidsentado2.webp",
+    "practiceAreas": [
+      "derecho-laboral",
+      "derecho-corporativo"
+    ],
+    "order": 1,
+    "role": {
+      "es": "Socio Fundador / Especialista en Derecho Laboral y Mediador Certificado",
+      "en": "Founding Partner / Labor Law Specialist & Certified Mediator",
+      "zh": "创始合伙人 / 劳动法专家及认证调解员",
+      "ko": "창립 파트너 / 노동법 전문 변호사 및 공인 조정위원"
+    },
+    "bio": {
+      "es": "Cuenta con más de 15 años de experiencia especializada en Derecho Laboral, particularmente en la asesoría y representación patronal. Actualmente colabora con empresas de diversos giros comerciales, brindando una asesoría jurídica preventiva, estratégica y personalizada, diseñada para responder eficazmente a las necesidades específicas de cada cliente.\n\nSu acompañamiento inicia desde la constitución de la empresa, ofreciendo soluciones jurídicas integrales que permiten cumplir con las obligaciones legales vigentes y prevenir posibles conflictos. Ha representado exitosamente a empleadores en conflictos obrero-patronales ante Juntas Locales y Especiales de Conciliación en todo el país, así como en Tribunales Laborales en el extranjero. Asimismo, participa activamente en negociaciones colectivas con sindicatos locales.\n\nEspecialista en negociación y resolución de conflictos, cuenta con certificación como mediador. Su experiencia lo posiciona como un referente en métodos alternativos de solución de controversias, así como en gobierno corporativo, empresas familiares, sucesión empresarial y diseño de protocolos familiares.",
+      "en": "He has over 15 years of specialized experience in Labor Law, particularly in employer advisory and representation. He currently works with companies across various industries, providing preventive, strategic and personalized legal advice designed to respond effectively to each client's specific needs.\n\nHis support begins at the incorporation of the company, offering comprehensive legal solutions that help clients meet their current legal obligations and prevent potential conflicts. He has successfully represented employers in labor-management disputes before Local and Special Conciliation Boards throughout the country, as well as before Labor Courts abroad. He also actively participates in collective bargaining with local unions.\n\nA specialist in negotiation and conflict resolution, he is certified as a mediator. His experience positions him as a reference in alternative dispute resolution methods, as well as in corporate governance, family businesses, business succession and the design of family protocols.",
+      "zh": "在劳动法领域拥有超过15年的专业经验，尤其擅长雇主法律顾问与代理诉讼。目前，他与各行各业的企业合作，提供预防性、战略性与个性化的法律顾问服务，旨在有效满足每位客户的具体需求。\n\n他的服务从公司设立之初便开始，提供全方位的法律解决方案，帮助客户履行现行法定义务并预防潜在冲突。他曾成功代理雇主处理全国各地地方与特别调解委员会以及国外劳动法庭的劳资纠纷，并积极参与与地方工会的集体谈判。\n\n他是谈判与冲突解决专家，并持有调解员认证。他的经验使他成为替代性争议解决方式以及公司治理、家族企业、企业传承与家族协议设计方面的权威人士。",
+      "ko": "노동법 분야에서 15년 이상의 전문 경력을 보유하고 있으며, 특히 사용자 측 법률 자문 및 대리를 전문으로 합니다. 현재 다양한 업종의 기업들과 협력하며, 각 고객의 구체적인 요구에 효과적으로 대응하도록 설계된 예방적, 전략적, 맞춤형 법률 자문을 제공합니다.\n\n그의 지원은 회사 설립 단계부터 시작되며, 현행 법적 의무를 이행하고 잠재적 분쟁을 예방할 수 있는 종합적인 법률 솔루션을 제공합니다. 전국 각지의 지방 및 특별 조정위원회와 해외 노동법원에서 사용자를 성공적으로 대리한 바 있으며, 지역 노동조합과의 단체교섭에도 적극적으로 참여하고 있습니다.\n\n협상 및 분쟁 해결 전문가로서 공인 조정위원 자격을 보유하고 있습니다. 그의 경험은 그를 대체적 분쟁 해결 방법뿐만 아니라 기업 지배구조, 가족 기업, 기업 승계 및 가족 규약 설계 분야의 권위자로 자리매김하게 합니다."
+    },
+    "education": {
+      "es": "Licenciatura en Derecho, Universidad Autónoma de Coahuila (1999–2004). Maestría en Derecho con Acentuación en Derecho Laboral Internacional, Universidad Autónoma de Coahuila (2013–2015). Máster en Alta Dirección de Empresas con Título Experto en Negociación de Conflictos, European Open Business School (en curso). Doctorado en Derecho Laboral, Instituto de Posgrado en Derecho (2022–2024).",
+      "en": "LL.B. from Universidad Autónoma de Coahuila (1999–2004). Master of Laws (LL.M.) in International Labor Law, Universidad Autónoma de Coahuila (2013–2015). Master in Senior Business Management with Expert Title in Conflict Negotiation, European Open Business School (in progress). Doctorate in Labor Law, Instituto de Posgrado en Derecho (2022–2024).",
+      "zh": "科阿韦拉自治大学法学学士（1999–2004）。科阿韦拉自治大学国际劳动法方向法学硕士（2013–2015）。欧洲开放商学院企业高级管理硕士，冲突谈判专家称号（在读）。劳动法博士，法律研究生院（2022–2024）。",
+      "ko": "코아우일라 자치대학교 법학 학사(1999–2004). 코아우일라 자치대학교 국제노동법 전공 법학 석사(2013–2015). European Open Business School 기업 고위 경영 석사, 분쟁 협상 전문가 자격(수료 중). 노동법 박사, Instituto de Posgrado en Derecho(2022–2024)."
+    }
+  },
+  {
+    "name": "Jorge Alberto Saucedo Reyes",
+    "slug": "jorge-alberto-saucedo-reyes",
+    "email": "jsaucedo@saucedolegal.mx",
+    "phone": "844-343-8333",
+    "photoStanding": "/images/jorgepie.webp",
+    "photoSitting": "/images/jorgesentado.webp",
+    "practiceAreas": [
+      "derecho-laboral",
+      "derecho-civil",
+      "familiar"
+    ],
+    "order": 2,
+    "role": {
+      "es": "Abogado / Especialista en Derecho Laboral y Mediación",
+      "en": "Attorney / Labor Law and Mediation Specialist",
+      "zh": "律师 / 劳动法与调解专家",
+      "ko": "변호사 / 노동법 및 조정 전문가"
+    },
+    "bio": {
+      "es": "Abogado con 12 años de experiencia en Derecho Laboral y Mediación. Se ha desempeñado como abogado patronal, desarrollando diversas líneas de acción encaminadas a la gestión patronal principalmente en las áreas de Derecho Civil y Derecho Familiar, fortaleciendo una práctica multidisciplinaria con un enfoque integral.\n\nSu trayectoria incluye el asesoramiento legal y el manejo estratégico de procedimientos paraprocesales ante los Tribunales Laborales, brindando atención a las necesidades específicas de sus clientes, por medio del diseño e implementación de estrategias de prevención corporativa.\n\nA lo largo de su carrera ha representado a empresas de diversos sectores ante Juzgados Laborales en conflictos:\n• Individuales: relacionados con la terminación de relaciones laborales, incluyendo terminaciones por discriminación.\n• Colectivos: vinculados con Contratos Colectivos de Trabajo, titularidad de contratos, y procedimientos de huelga.\n\nTambién ha asesorado en el diseño e implementación de estrategias en mediación referentes a negociaciones colectivas e individuales, mediando en asuntos entre nuestras empresas clientes y sus relaciones, así como relaciones entre sindicatos y empresas. Esta versatilidad le permite ofrecer soluciones prácticas y resultados óptimos en conflictos complejos.\n\nSu amplia experiencia en Mediación le ha permitido desenvolverse resolviendo controversias de manera ágil y efectiva, ofreciendo soluciones claras.",
+      "en": "Attorney with 12 years of experience in Labor Law and Mediation. He has worked as an employer-side attorney, developing various lines of action aimed at employer management, mainly in Civil Law and Family Law, strengthening a multidisciplinary practice with a comprehensive approach.\n\nHis career includes legal advice and the strategic handling of paraprocedural proceedings before Labor Courts, addressing his clients' specific needs through the design and implementation of corporate prevention strategies.\n\nThroughout his career he has represented companies from various sectors before Labor Courts in disputes:\n• Individual: related to the termination of employment relationships, including terminations due to discrimination.\n• Collective: related to Collective Bargaining Agreements, contract ownership, and strike proceedings.\n\nHe has also advised on the design and implementation of mediation strategies for collective and individual negotiations, mediating matters between our client companies and their counterparts, as well as relations between unions and companies. This versatility allows him to offer practical solutions and optimal results in complex conflicts.\n\nHis extensive experience in Mediation has allowed him to resolve disputes swiftly and effectively, offering clear solutions.",
+      "zh": "拥有12年劳动法与调解经验的律师。他曾担任雇主方律师，围绕雇主管理开展多项工作，主要涉及民法与家庭法领域，形成了注重整体的多学科执业方式。\n\n他的职业经历包括提供法律咨询，以及在劳动法庭处理准诉讼程序的战略性事务，通过设计与实施企业预防策略，满足客户的具体需求。\n\n在职业生涯中，他曾代理各行业企业处理劳动法庭的纠纷：\n• 个人纠纷：与劳动关系终止有关，包括因歧视而终止的情况。\n• 集体纠纷：与集体劳动合同、合同所有权及罢工程序有关。\n\n他还就集体与个人谈判中的调解策略的设计与实施提供咨询，在客户企业与其相关方之间，以及工会与企业之间进行调解。这种多面性使他能够在复杂冲突中提供切实可行的解决方案并取得最佳结果。\n\n他在调解方面的丰富经验使他能够迅速、有效地解决争议，提供明确的解决方案。",
+      "ko": "노동법 및 조정 분야에서 12년의 경력을 가진 변호사입니다. 사용자 측 변호사로 활동하며 주로 민법 및 가족법 분야에서 사용자 관리에 중점을 둔 다양한 업무를 수행해 왔고, 통합적 관점을 가진 다학제적 실무를 강화해 왔습니다.\n\n그의 경력에는 법률 자문과 노동법원 앞에서의 준소송 절차에 대한 전략적 처리가 포함되며, 기업 예방 전략의 설계와 실행을 통해 고객의 구체적인 요구에 대응합니다.\n\n경력 전반에 걸쳐 다양한 업종의 기업들을 노동법원 앞 분쟁에서 대리해 왔습니다.\n• 개인 분쟁: 차별에 따른 해고를 포함한 근로 관계 종료와 관련된 분쟁.\n• 집단 분쟁: 단체협약, 협약 소유권 및 파업 절차와 관련된 분쟁.\n\n또한 단체 및 개인 교섭과 관련된 조정 전략의 설계와 실행에 대해 자문하며, 고객 기업과 그 상대방 사이, 그리고 노동조합과 기업 사이의 사안을 조정해 왔습니다. 이러한 다재다능함 덕분에 복잡한 분쟁에서도 실질적인 해결책과 최적의 결과를 제공할 수 있습니다.\n\n조정에 대한 폭넓은 경험 덕분에 분쟁을 신속하고 효과적으로 해결하며 명확한 해결책을 제시할 수 있습니다."
+    },
+    "education": {
+      "es": "Licenciado en Derecho, Universidad Autónoma de Coahuila (2012–2017). Maestría en Derecho con Acentuación en Derecho Laboral Internacional, Universidad Autónoma de Coahuila (2018). Máster en Alta Dirección de Empresas con Título Experto en Negociación de Conflictos, European Open Business School (2019). Doctorado en Derecho Laboral, Instituto de Posgrado en Derecho (2021).",
+      "en": "LL.B., Universidad Autónoma de Coahuila (2012–2017). Master of Laws (LL.M.) in International Labor Law, Universidad Autónoma de Coahuila (2018). Master in Senior Business Management with Expert Title in Conflict Negotiation, European Open Business School (2019). Doctorate in Labor Law, Instituto de Posgrado en Derecho (2021).",
+      "zh": "科阿韦拉自治大学法学学士（2012–2017）。科阿韦拉自治大学国际劳动法方向法学硕士（2018）。欧洲开放商学院企业高级管理硕士，冲突谈判专家称号（2019）。劳动法博士，法律研究生院（2021）。",
+      "ko": "코아우일라 자치대학교 법학 학사(2012–2017). 코아우일라 자치대학교 국제노동법 전공 법학 석사(2018). European Open Business School 기업 고위 경영 석사, 분쟁 협상 전문가 자격(2019). 노동법 박사, Instituto de Posgrado en Derecho(2021)."
+    }
+  },
+  {
+    "name": "Armando Cortés De Hoyos",
+    "slug": "armando-cortes-de-hoyos",
+    "email": "acortes@saucedolegal.mx",
+    "phone": "844-343-8333",
+    "photoStanding": "/images/armandopie.webp",
+    "photoSitting": "/images/armandosentado.webp",
+    "practiceAreas": [
+      "derecho-laboral",
+      "familiar"
+    ],
+    "order": 3,
+    "role": {
+      "es": "Abogado / Especialista en Derecho Constitucional y Amparo",
+      "en": "Attorney / Constitutional Law and Amparo Specialist",
+      "zh": "律师 / 宪法与宪法保护诉讼专家",
+      "ko": "변호사 / 헌법 및 암파로 전문가"
+    },
+    "bio": {
+      "es": "Armando Cortés De Hoyos es abogado especializado en Derecho Constitucional y Amparo, con un enfoque estratégico en la litigación de conflictos constitucionales. Además, ha desarrollado soluciones jurídicas eficaces en diversas áreas del derecho y tiene una formación sólida en Justicia Alternativa a través de la Mediación.\n\nCon Maestría en Derecho Constitucional, cuenta con amplia experiencia en Derecho Laboral y en litigación, asesorando a clientes en la preparación de demandas de amparo, contratos colectivos de trabajo y mediaciones en materia familiar. Su experiencia ha sido clave en la resolución de disputas, promoviendo la cultura de la mediación y fomentando un enfoque colaborativo y pacífico para la resolución de conflictos.",
+      "en": "Armando Cortés De Hoyos is an attorney specializing in Constitutional Law and Amparo, with a strategic focus on litigating constitutional conflicts. He has also developed effective legal solutions in various areas of law and has solid training in Alternative Justice through Mediation.\n\nWith a Master's degree in Constitutional Law, he has extensive experience in Labor Law and litigation, advising clients on the preparation of amparo claims, collective bargaining agreements and family mediations. His experience has been key in resolving disputes, promoting a culture of mediation and fostering a collaborative, peaceful approach to conflict resolution.",
+      "zh": "Armando Cortés De Hoyos 是一名专长于宪法与宪法保护诉讼（amparo）的律师，专注于宪法冲突诉讼的战略处理。他还在多个法律领域制定了有效的法律解决方案，并通过调解在替代性司法方面接受了扎实的培训。\n\n他拥有宪法方向法学硕士学位，在劳动法与诉讼方面经验丰富，为客户提供宪法保护诉讼、集体劳动合同与家庭调解的准备工作方面的咨询。他的经验对解决争议起到了关键作用，推动了调解文化，倡导以协作、和平的方式解决冲突。",
+      "ko": "Armando Cortés De Hoyos는 헌법 및 암파로(amparo)를 전문으로 하는 변호사로, 헌법 분쟁 소송에 전략적으로 중점을 두고 있습니다. 또한 다양한 법률 분야에서 효과적인 법률 솔루션을 개발했으며, 조정을 통한 대체적 사법 분야에서 탄탄한 교육을 받았습니다.\n\n헌법 전공 법학 석사 학위를 보유하고 있으며, 노동법 및 소송 분야에서 폭넓은 경험을 쌓아 암파로 청구, 단체협약 및 가족 조정 준비에 관해 고객에게 자문합니다. 그의 경험은 분쟁 해결에 핵심적인 역할을 했으며, 조정 문화를 확산하고 협력적이고 평화로운 분쟁 해결 방식을 장려하고 있습니다."
+    },
+    "education": {
+      "es": "Licenciatura en Derecho, Universidad Autónoma del Noreste (UANE) (2014–2018). Maestría en Derecho con Acentuación en Derecho Constitucional, Universidad Autónoma de Coahuila (2021–2023). Diplomado en Justicia Alternativa, enfocado en Mediación (2023). Curso AIJA “Cuestiones Prácticas de Proceso Judicial”, organizado y coordinado por el TCE de los EE. UU. de América y la II Fundación de la Barra de Abogados Americanos. Segundo Congreso Internacional de Bioética, UNAM (2014). Seminario Formación de Instructores en Materia de Derechos Humanos para Centros de Readaptación Social, impartido por la Comisión Nacional de los Derechos Humanos (CNDH). XI Conferencia Regional para América Latina y el Caribe sobre Derecho Internacional Humanitario y su disertación sobre Medios de Solución Pacífica de Conflictos y Convención sobre la Protección del Personal de las Naciones Unidas (UNAM).",
+      "en": "LL.B., Universidad Autónoma del Noreste (UANE) (2014–2018). Master of Laws (LL.M.) in Constitutional Law, Universidad Autónoma de Coahuila (2021–2023). Diploma in Alternative Justice, focused on Mediation (2023). AIJA Course “Practical Issues of Judicial Process”, organized and coordinated by the TCE of the United States of America and the Second Foundation of the American Bar Association. Second International Congress on Bioethics, UNAM (2014). Seminar on Training Instructors in Human Rights for Social Reintegration Centers, given by the National Human Rights Commission (CNDH). XI Regional Conference for Latin America and the Caribbean on International Humanitarian Law, with his dissertation on Peaceful Conflict Resolution Means and the Convention on the Protection of United Nations Personnel (UNAM).",
+      "zh": "东北自治大学（UANE）法学学士（2014–2018）。科阿韦拉自治大学宪法方向法学硕士（2021–2023）。替代性司法文凭，侧重调解（2023）。AIJA课程“司法程序实务问题”，由美利坚合众国TCE与美国律师协会第二基金会组织协调。 第二届国际生物伦理学大会，墨西哥国立自治大学（2014）。人权讲师培训研讨会——面向社会再适应中心，由墨西哥国家人权委员会（CNDH）主办。第十一届拉丁美洲及加勒比地区国际人道法区域会议，主题为和平解决冲突手段与《联合国人员保护公约》（墨西哥国立自治大学）。",
+      "ko": "Universidad Autónoma del Noreste (UANE) 법학 학사(2014–2018). 코아우일라 자치대학교 헌법 전공 법학 석사(2021–2023). 대체적 사법 디플로마, 조정 중점(2023). AIJA 과정 “사법 절차의 실무적 쟁점”, 미국 TCE 및 미국변호사협회 제2재단 주관·조정. 제2회 국제 생명윤리 학술대회, UNAM(2014). 사회 재적응 센터를 위한 인권 강사 양성 세미나, 국가인권위원회(CNDH) 주관. 제11회 라틴아메리카 및 카리브 지역 국제인도법 지역 회의, 평화적 분쟁 해결 수단 및 유엔 직원 보호 협약에 관한 논문 발표(UNAM)."
+    }
+  },
+  {
+    "name": "Diana Lizeth Guevara Tovar",
+    "slug": "diana-lizeth-guevara-tovar",
+    "email": "dguevara@saucedolegal.mx",
+    "phone": "844-343-8333",
+    "photoStanding": "/images/dianapie.webp",
+    "photoSitting": "/images/dianasentada.webp",
+    "practiceAreas": [
+      "derecho-laboral",
+      "servicios-ambientales"
+    ],
+    "order": 4,
+    "role": {
+      "es": "Abogada / Especialista en Mediación y Conciliación",
+      "en": "Attorney / Mediation and Conciliation Specialist",
+      "zh": "律师 / 调解与和解专家",
+      "ko": "변호사 / 조정 및 화해 전문가"
+    },
+    "bio": {
+      "es": "Cuenta con competencias en el Medio Alterno de Solución de Controversias. Ha representado entidades públicas, empresas privadas, y personas morales en asuntos de diversa índole. Dentro de sus ámbitos de práctica se cuenta con la Mediación y la Conciliación, resaltando experiencia en asegurar que los acuerdos logrados en mediación sean debidamente cumplidos por las partes involucradas.\n\nCon tres años de experiencia en litigación laboral por parte obrero-patronal, convenios fuera de juicio ante juzgado y medios alternos de solución de controversias. Además, realizó la gestión de dos convenios en juzgado laboral para pagos mensuales de sustitutivos y aplicación de diversos convenios, así como acuerdos y juicios en despido injustificado, puntos sucesorios y acuerdos.\n\nTambién ha laborado en oficinas gubernamentales, en la búsqueda de implementar normas y leyes para el bienestar de las instituciones y sus patronos, a través de la rendición de cuentas. Colabora con organizaciones en la búsqueda de mejorar proyectos que contribuyan al medio ambiente y el cuidado de recursos naturales, así como de desarrollo.",
+      "en": "She has expertise in Alternative Dispute Resolution. She has represented public entities, private companies and legal entities in matters of various kinds. Her areas of practice include Mediation and Conciliation, with notable experience in ensuring that agreements reached in mediation are duly complied with by the parties involved.\n\nWith three years of experience in employer-employee labor litigation, out-of-court settlements before the court and alternative dispute resolution methods. She also managed two agreements in labor court for monthly substitute payments and the application of various agreements, as well as settlements and lawsuits in unjustified dismissal, succession matters and agreements.\n\nShe has also worked in government offices, seeking to implement rules and laws for the well-being of institutions and their employers, through accountability. She collaborates with organizations seeking to improve projects that contribute to the environment and the care of natural resources, as well as to development.",
+      "zh": "她在替代性争议解决方面具备专业能力。她曾代理公共机构、私营企业与法人实体处理各类事务。其执业领域包括调解与和解，尤其擅长确保调解达成的协议得到相关各方的切实履行。\n\n她拥有三年劳资双方劳动诉讼、法庭外和解与替代性争议解决方面的经验。此外，她曾在劳动法庭办理两项关于替代性月付款的协议及多项协议的适用，以及不当解雇、继承事项与协议方面的和解与诉讼。\n\n她还曾在政府部门工作，通过问责机制推动实施有利于机构及其雇主的规范与法律。她与相关组织合作，致力于改进有助于环境保护、自然资源养护与发展的项目。",
+      "ko": "대체적 분쟁 해결 분야에서 전문성을 갖추고 있습니다. 공공 기관, 민간 기업 및 법인을 대리하여 다양한 사안을 처리해 왔습니다. 실무 분야에는 조정과 화해가 포함되며, 조정에서 도출된 합의가 관련 당사자들에 의해 충실히 이행되도록 하는 데 풍부한 경험을 보유하고 있습니다.\n\n노사 양측의 노동 소송, 법원 앞에서의 재판 외 합의 및 대체적 분쟁 해결 방법 분야에서 3년의 경험을 보유하고 있습니다. 또한 노동법원에서 대체 월 지급금에 관한 두 건의 합의와 다양한 합의의 적용을 관리했으며, 부당 해고, 상속 관련 사안 및 합의에 관한 합의와 소송도 처리했습니다.\n\n또한 정부 기관에서 근무하며, 책임성 제고를 통해 기관과 그 사용자의 복지를 위한 규범과 법률을 시행하고자 노력했습니다. 환경과 천연자원 보호 및 발전에 기여하는 프로젝트를 개선하고자 하는 단체들과 협력하고 있습니다."
+    },
+    "education": {
+      "es": "Licenciatura en Derecho, Universidad Autónoma de Coahuila (2013). Maestría en Juicios Orales, Instituto Universitario de Norte (IUN) (2023). Certificación en Justicia Alternativa con dominio en Mediación, Universidad Juárez del Estado de Durango (2023).",
+      "en": "LL.B., Universidad Autónoma de Coahuila (2013). Master's degree in Oral Trials, Instituto Universitario de Norte (IUN) (2023). Certification in Alternative Justice with expertise in Mediation, Universidad Juárez del Estado de Durango (2023).",
+      "zh": "科阿韦拉自治大学法学学士（2013）。北方大学学院（IUN）口头审判硕士（2023）。杜兰戈州华雷斯大学替代性司法认证，专长调解（2023）。",
+      "ko": "코아우일라 자치대학교 법학 학사(2013). Instituto Universitario de Norte (IUN) 구술 재판 석사(2023). 두랑고주립 후아레스대학교 대체적 사법 인증, 조정 전문(2023)."
+    }
+  },
+  {
+    "name": "Hannia Carolina Gutierrez Avalos",
+    "slug": "hannia-carolina-gutierrez-avalos",
+    "email": "",
+    "phone": "844-343-8333",
+    "photoStanding": "/images/carolinapie-1.webp",
+    "photoSitting": "/images/carolinasentada-1.webp",
+    "practiceAreas": [
+      "derecho-penal",
+      "derecho-civil",
+      "familiar",
+      "servicios-ambientales"
+    ],
+    "order": 5,
+    "role": {
+      "es": "Abogada / Especialista en Derecho Penal y Amparo",
+      "en": "Attorney / Criminal Law and Amparo Specialist",
+      "zh": "律师 / 刑法与宪法保护诉讼专家",
+      "ko": "변호사 / 형법 및 암파로 전문가"
+    },
+    "bio": {
+      "es": "Abogada con un grado avanzado en Derecho Penal y Amparo, dedicada a la protección de los derechos constitucionales de sus clientes. Ha trabajado en la representación tanto de imputados como de víctimas en diversos casos penales.\n\nSu área de práctica incluye la defensa de derechos humanos y la litigación en casos de abandono y abusos de autoridad. Asimismo, posee experiencia en la mediación de asuntos penales, familiares, civiles y de arrendamiento, buscando siempre soluciones justas y equitativas.\n\nCon un enfoque en la preparación de demandas de amparo y estrategias creativas para defender los derechos de sus clientes, también ha trabajado en el campo del Derecho Administrativo, brindando asesoría en el transporte público y en temas ambientales, y fortaleciendo su práctica con un enfoque de protección de los derechos constitucionales de sus clientes.\n\nCon experiencia en el análisis de datos y metodologías de investigación, ha abordado diversas investigaciones en temas de políticas públicas, derecho ambiental y transparencia gubernamental, lo que le ha permitido obtener asesorías en casos complejos y multifactoriales.",
+      "en": "Attorney with advanced training in Criminal Law and Amparo, dedicated to protecting her clients' constitutional rights. She has represented both defendants and victims in various criminal cases.\n\nHer practice includes the defense of human rights and litigation in cases of abandonment and abuse of authority. She also has experience mediating criminal, family, civil and lease matters, always seeking fair and equitable solutions.\n\nWith a focus on preparing amparo claims and creative strategies to defend her clients' rights, she has also worked in Administrative Law, advising on public transportation and environmental issues, and strengthening her practice with a focus on protecting her clients' constitutional rights.\n\nWith experience in data analysis and research methodologies, she has conducted various investigations on public policy, environmental law and government transparency, which has allowed her to advise on complex, multifactorial cases.",
+      "zh": "她是一名在刑法与宪法保护诉讼（amparo）方面受过高级培训的律师，致力于保护客户的宪法权利。她曾在多起刑事案件中代理被告人与被害人。\n\n其执业领域包括人权辩护，以及遗弃与滥用职权案件的诉讼。她还拥有调解刑事、家庭、民事与租赁事务的经验，始终寻求公正、公平的解决方案。\n\n她专注于准备宪法保护诉讼与制定捍卫客户权利的创造性策略，还曾从事行政法工作，就公共交通与环境问题提供咨询，并以保护客户宪法权利为重点强化其实践。\n\n她在数据分析与研究方法方面经验丰富，曾就公共政策、环境法与政府透明度开展多项研究，这使她能够就复杂的多因素案件提供咨询。",
+      "ko": "형법 및 암파로 분야에서 고급 교육을 받은 변호사로, 고객의 헌법상 권리 보호에 전념하고 있습니다. 다양한 형사 사건에서 피고인과 피해자를 모두 대리해 왔습니다.\n\n실무 분야에는 인권 옹호와 유기 및 직권 남용 사건의 소송이 포함됩니다. 또한 형사, 가족, 민사 및 임대차 사안의 조정에 경험이 있으며, 항상 공정하고 공평한 해결책을 모색합니다.\n\n암파로 청구 준비와 고객의 권리를 수호하기 위한 창의적인 전략에 중점을 두고, 행정법 분야에서도 활동하며 대중교통 및 환경 문제에 대해 자문하고, 고객의 헌법상 권리 보호에 중점을 두어 실무를 강화해 왔습니다.\n\n데이터 분석 및 연구 방법론에 대한 경험을 바탕으로 공공 정책, 환경법 및 정부 투명성에 관한 다양한 연구를 수행해 왔으며, 이를 통해 복잡하고 다요인적인 사건에 대해 자문할 수 있었습니다."
+    },
+    "education": {
+      "es": "Cursando el tercer año del Doctorado en Derecho con orientación en Derecho Penal, en la Universidad Autónoma del Noreste (UANE) (2023 — presente). Licenciatura en Derecho por la Universidad Autónoma de Coahuila (2018–2023). Diplomado en Derecho Administrativo Sancionador, en el Proceso Administrativo de Responsabilidades y a la Ley General de Responsabilidades Administrativas, impartido por la Universidad Juárez Autónoma de Tabasco (UJAT) en colaboración con Responsabilidad Administrativa, con mención como Experto en Revenue Assurance a través de la Escuela Internacional de Administración Pública de Fintech Solutions (2022).",
+      "en": "Currently in the third year of a Doctorate in Law with a focus on Criminal Law at Universidad Autónoma del Noreste (UANE) (2023 — present). LL.B. from Universidad Autónoma de Coahuila (2018–2023). Diploma in Sanctioning Administrative Law, in the Administrative Liability Process and the General Law on Administrative Liabilities, given by Universidad Juárez Autónoma de Tabasco (UJAT) in collaboration with Responsabilidad Administrativa, with a mention as Expert in Revenue Assurance through the International School of Public Administration of Fintech Solutions (2022).",
+      "zh": "目前在东北自治大学（UANE）攻读刑法方向法学博士第三年（2023年至今）。科阿韦拉自治大学法学学士（2018–2023）。制裁性行政法、行政责任程序与《行政责任总法》文凭，由塔巴斯科华雷斯自治大学（UJAT）与行政责任机构合作授课，并通过Fintech Solutions国际公共管理学院获得收入保障专家称号（2022）。",
+      "ko": "현재 Universidad Autónoma del Noreste (UANE)에서 형법 전공 법학 박사 과정 3학년 재학 중(2023년—현재). 코아우일라 자치대학교 법학 학사(2018–2023). 제재 행정법, 행정 책임 절차 및 행정 책임 일반법에 관한 디플로마, Universidad Juárez Autónoma de Tabasco (UJAT)와 Responsabilidad Administrativa 협력 과정, Fintech Solutions 국제공공행정학교를 통한 Revenue Assurance 전문가 언급(2022)."
+    }
+  },
+  {
+    "name": "Alondra Yeverino Medina",
+    "slug": "alondra-yeverino-medina",
+    "email": "",
+    "phone": "844-343-8333",
+    "photoStanding": "/images/Alondrapie-1.webp",
+    "photoSitting": "/images/AlondraSentada-1.webp",
+    "practiceAreas": [
+      "derecho-penal",
+      "derecho-civil",
+      "familiar"
+    ],
+    "order": 6,
+    "role": {
+      "es": "Abogada Litigante / Justicia Alternativa",
+      "en": "Litigation Attorney / Alternative Justice",
+      "zh": "诉讼律师 / 替代性司法",
+      "ko": "소송 변호사 / 대체적 사법"
+    },
+    "bio": {
+      "es": "Originaria de Saltillo, Coahuila, es una joven abogada con un compromiso destacado con la justicia y el servicio social. Su formación integral y su pasión por el derecho se reflejan en su trayectoria académica, su participación en concursos internacionales y su trabajo como voluntaria en programas de apoyo a derechos humanos.\n\nEs litigante en el Despacho Saucedo Legal, combina su práctica en Derecho Penal, Civil y de Familia, así como en la preparación de cuestiones de amparo, dándole una formación práctica sólida.\n\nAsimismo, colabora en el área de Justicia Alternativa, participando activamente en mediaciones en materia familiar, civil y de arrendamiento, enfocándose en la resolución de conflictos de forma pacífica y colaborativa.",
+      "en": "Originally from Saltillo, Coahuila, she is a young attorney with a strong commitment to justice and social service. Her comprehensive training and passion for law are reflected in her academic career, her participation in international competitions and her volunteer work in human rights support programs.\n\nShe is a litigator at Saucedo Legal, combining her practice in Criminal, Civil and Family Law, as well as preparing amparo matters, giving her solid practical training.\n\nShe also collaborates in the Alternative Justice area, actively participating in mediations in family, civil and lease matters, focusing on resolving conflicts peacefully and collaboratively.",
+      "zh": "她来自科阿韦拉州萨尔蒂约，是一名年轻律师，对正义与社会服务有着突出的承诺。她全面的教育背景与对法律的热情体现在其学术经历、国际竞赛参与以及人权支持项目志愿工作中。\n\n她是Saucedo Legal律所的诉讼律师，执业领域结合刑法、民法与家庭法，并负责准备宪法保护诉讼事务，这为她奠定了扎实的实务基础。\n\n她还在替代性司法领域开展合作，积极参与家庭、民事与租赁事务的调解，专注于以和平、协作的方式解决冲突。",
+      "ko": "코아우일라주 살티요 출신으로, 정의와 사회 봉사에 대한 강한 헌신을 가진 젊은 변호사입니다. 포괄적인 교육과 법에 대한 열정은 학업 경력, 국제 대회 참여, 인권 지원 프로그램에서의 자원봉사 활동에 잘 드러납니다.\n\nSaucedo Legal에서 소송 변호사로 활동하며 형법, 민법 및 가족법 실무를 병행하고 암파로 사안을 준비하면서 탄탄한 실무 교육을 쌓았습니다.\n\n또한 대체적 사법 분야에서 협력하며 가족, 민사 및 임대차 사안의 조정에 적극적으로 참여하고, 분쟁을 평화롭고 협력적으로 해결하는 데 중점을 두고 있습니다."
+    },
+    "education": {
+      "es": "Licenciatura en Derecho, Universidad Autónoma de Coahuila (2020–2025). Participante en la 7ª Competencia Nacional de Litigación Oral del Sistema Penal Acusatorio (2024). Participante en la 18ª Competencia Internacional de Debate, celebrada en el Auditorio Carlos Castillo Guillén de la Facultad de Derecho de la Universidad Nacional Autónoma de México (UNAM) (2024). Egresada de la Universidad Autónoma de Coahuila (2020–2025) como parte de la generación (2020–2024) de la Facultad de Jurisprudencia. Representante del equipo de Moot Court de México en la Competencia Internacional Heidi en la Universidad de Amberes (2023). Ganadora de presidencia del Ayuntamiento, participación en el programa “Mi Carrera, Mi Futuro”, celebrado en el Ayuntamiento de Saltillo (2023). Académica de la carrera de Derecho como parte del programa “Aprendiendo a defenderte”, impartido por la Universidad Autónoma de Coahuila (2023). Participante en el Concurso Nacional “ConCiencia”, organizado por el Instituto Nacional de Derecho de México, en colaboración con el Sistema Nacional de Evaluación de la Educación Superior (INEE) (2022). Trabajo en el Despacho Saucedo Legal desde 2022 como pasante y asistente legal, desempeñando funciones de gestión documental, seguimiento a juicios y apoyo legal. Mediación: Participante en el Seminario “Competencia de Mediación e Integración de Proyectos”, organizado por la Facultad de Jurisprudencia de la Universidad Autónoma de Coahuila (2022).",
+      "en": "LL.B., Universidad Autónoma de Coahuila (2020–2025). Participant in the 7th National Oral Litigation Competition of the Accusatory Criminal System (2024). Participant in the 18th International Debate Competition, held at the Carlos Castillo Guillén Auditorium of the Faculty of Law of the National Autonomous University of Mexico (UNAM) (2024). Graduate of Universidad Autónoma de Coahuila (2020–2025) as part of the (2020–2024) class of the Faculty of Jurisprudence. Representative of the Mexico Moot Court team at the Heidi International Competition at the University of Antwerp (2023). Winner of the City Council presidency, participation in the “Mi Carrera, Mi Futuro” program, held at the Saltillo City Council (2023). Academic in the Law degree program as part of the “Aprendiendo a defenderte” program, given by Universidad Autónoma de Coahuila (2023). Participant in the National “ConCiencia” Contest, organized by the National Institute of Law of Mexico, in collaboration with the National System for the Evaluation of Higher Education (INEE) (2022). Work at Saucedo Legal since 2022 as an intern and legal assistant, performing document management, case tracking and legal support functions. Mediation: Participant in the Seminar “Mediation Competition and Project Integration”, organized by the Faculty of Jurisprudence of Universidad Autónoma de Coahuila (2022).",
+      "zh": "科阿韦拉自治大学法学学士（2020–2025）。第七届刑事控诉制度口头诉讼全国竞赛参赛者（2024）。第十八届国际辩论赛参赛者，于墨西哥国立自治大学（UNAM）法学院Carlos Castillo Guillén礼堂举行（2024）。科阿韦拉自治大学法学院（2020–2024届）毕业生（2020–2025）。墨西哥模拟法庭代表队成员，参加安特卫普大学Heidi国际竞赛（2023）。市议会主席获奖者，参加在萨尔蒂约市议会举办的“Mi Carrera, Mi Futuro”项目（2023）。作为科阿韦拉自治大学“Aprendiendo a defenderte”项目的一部分担任法学专业学术人员（2023）。全国“ConCiencia”竞赛参赛者，由墨西哥国家法律研究院主办，与国家高等教育评价体系（INEE）合作（2022）。自2022年起在Saucedo Legal律所担任实习生与法律助理，负责文件管理、案件跟踪与法律支持工作。调解：参加由科阿韦拉自治大学法学院组织的“调解竞赛与项目整合”研讨会（2022）。",
+      "ko": "코아우일라 자치대학교 법학 학사(2020–2025). 제7회 형사 고소 제도 구술 소송 전국 대회 참가자(2024). 멕시코국립자치대학교(UNAM) 법학부 Carlos Castillo Guillén 강당에서 열린 제18회 국제 토론 대회 참가자(2024). 코아우일라 자치대학교 법학부(2020–2024학번) 졸업생(2020–2025). 앤트워프 대학교 Heidi 국제 대회에서 멕시코 모의재판 팀 대표(2023). 살티요 시청에서 열린 “Mi Carrera, Mi Futuro” 프로그램 참여, 시청 회장 수상(2023). 코아우일라 자치대학교 “Aprendiendo a defenderte” 프로그램의 일환으로 법학과 학술 활동 참여(2023). 멕시코 국립법학원이 주최하고 국가 고등교육 평가 시스템(INEE)과 협력한 전국 “ConCiencia” 경연 참가자(2022). 2022년부터 Saucedo Legal에서 인턴 및 법률 보조원으로 근무하며 문서 관리, 소송 추적 및 법률 지원 업무 수행. 조정: 코아우일라 자치대학교 법학부가 주최한 “조정 경연 및 프로젝트 통합” 세미나 참가자(2022)."
+    }
+  },
+  {
+    "name": "Wendy Saharai Valerio Caballero",
+    "slug": "wendy-saharai-valerio-caballero",
+    "email": "wvalerio@saucedolegal.com",
+    "phone": "844-343-8333",
+    "photoStanding": "/images/wendypie.webp",
+    "photoSitting": "/images/wendysentada.webp",
+    "practiceAreas": [
+      "seguridad-social"
+    ],
+    "order": 7,
+    "role": {
+      "es": "Abogada / Especialista en Seguridad Social",
+      "en": "Attorney / Social Security Specialist",
+      "zh": "律师 / 社会保障专家",
+      "ko": "변호사 / 사회보장 전문가"
+    },
+    "bio": {
+      "es": "Wendy Saharai Valerio Caballero es una especialista en el área de Seguridad Social. Ha brindado asesoría en la Banca de Mesa de Servicios y ha estado a cargo de la gestión en Mesas Temáticas de Seguridad Social.\n\nComo parte de su trabajo con empresas privadas, ha revisado los procedimientos y bases de cotización de la dependencia. Su experiencia en Seguridad Social abarca la capacitación de diversos temas: revisión de altas y bajas, censos, movimientos afiliatorios, clasificaciones aplicables y manejo de los artículos 15 A y 41 A para prestación de servicios especializados en materia de outsourcing.\n\nSu enfoque en general ha permitido brindar asistencia integral a los clientes en absoluto cumplimiento con las normas ambientales vigentes, garantizando la correcta liquidación de cuotas obrero-patronales.",
+      "en": "Wendy Saharai Valerio Caballero is a specialist in Social Security. She has provided advice at the Service Desk and has been in charge of managing Social Security Thematic Tables.\n\nAs part of her work with private companies, she has reviewed the procedures and contribution bases of the agency. Her experience in Social Security covers training on various topics: review of registrations and deregistrations, censuses, affiliation movements, applicable classifications and handling of Articles 15 A and 41 A for the provision of specialized outsourcing services.\n\nHer overall approach has made it possible to provide clients with comprehensive assistance in full compliance with current environmental regulations, guaranteeing the correct settlement of employer-employee contributions.",
+      "zh": "Wendy Saharai Valerio Caballero 是社会保障领域的专家。她曾在服务台提供咨询，并负责社会保障专题工作组的管理。\n\n作为与私营企业合作的一部分，她曾审查相关机构的程序与缴费基数。她在社会保障方面的经验涵盖多项主题的培训：登记与注销审查、普查、参保变动、适用分类，以及为外包专业服务处理第15 A条与第41 A条。\n\n她的整体工作方式使她能够为客户提供全方位协助，完全遵守现行环境法规，确保劳资双方缴费的正确结算。",
+      "ko": "Wendy Saharai Valerio Caballero는 사회보장 분야의 전문가입니다. 서비스 데스크에서 자문을 제공했으며, 사회보장 주제별 회의 관리를 담당해 왔습니다.\n\n민간 기업과의 업무의 일환으로 해당 기관의 절차와 기여금 산정 기준을 검토했습니다. 사회보장 분야의 경험은 등록 및 말소 검토, 인구 조사, 가입 변동, 적용 분류, 아웃소싱 전문 서비스 제공을 위한 제15 A조 및 제41 A조 처리 등 다양한 주제에 대한 교육을 포함합니다.\n\n그녀의 전반적인 접근법은 현행 환경 규정을 완전히 준수하면서 고객에게 종합적인 지원을 제공하고, 노사 기여금의 정확한 정산을 보장할 수 있게 했습니다."
+    },
+    "education": {
+      "es": "Licenciatura en Derecho, Universidad Autónoma de Coahuila (2017–2022). Maestría en Derecho con Acentuación en Derecho del Trabajo (2019–2021). Cursos y Diplomados en Seguridad Social, además de otros cursos profesionales. Seguridad Social, su desarrollo y perspectivas, Intercambio y Subdirecciones del IMSS. Curso Presencial de Extensión de la Seguridad Social. La Seguridad Social, su desarrollo y perspectivas, Intercambio y Subdirecciones del IMSS (2020). Curso Acreditación del Seguro Social (2017). Curso Para la promoción de la Seguridad Social y la difusión de normatividad (2016). Instituto Mexicano del Seguro Social (2015).",
+      "en": "LL.B., Universidad Autónoma de Coahuila (2017–2022). Master of Laws (LL.M.) in Labor Law (2019–2021). Courses and Diplomas in Social Security, as well as other professional courses. Social Security, its development and perspectives, Exchange and Sub-directorates of the IMSS. In-person Extension Course on Social Security. Social Security, its development and perspectives, Exchange and Sub-directorates of the IMSS (2020). Social Security Accreditation Course (2017). Course for the Promotion of Social Security and the Dissemination of Regulations (2016). Mexican Social Security Institute (2015).",
+      "zh": "科阿韦拉自治大学法学学士（2017–2022）。劳动法方向法学硕士（2019–2021）。社会保障课程与文凭及其他专业课程。社会保障及其发展与前景，墨西哥社会保障局（IMSS）的交流与分局。社会保障推广面授课程。社会保障及其发展与前景，墨西哥社会保障局（IMSS）的交流与分局（2020）。社会保险认证课程（2017）。社会保障推广与法规宣传课程（2016）。墨西哥社会保障局（2015）。",
+      "ko": "코아우일라 자치대학교 법학 학사(2017–2022). 노동법 전공 법학 석사(2019–2021). 사회보장 관련 과정 및 디플로마, 기타 전문 과정. 사회보장, 그 발전과 전망, IMSS의 교류 및 하위 부서. 사회보장 확장 대면 과정. 사회보장, 그 발전과 전망, IMSS의 교류 및 하위 부서(2020). 사회보험 인증 과정(2017). 사회보장 홍보 및 규정 확산 과정(2016). 멕시코 사회보장원(2015)."
+    }
+  },
+  {
+    "name": "Omar Alejandro Gaytán Arellano",
+    "slug": "omar-alejandro-gaytan-arellano",
+    "email": "ogaytan@saucedolegal.mx",
+    "phone": "844-343-8333",
+    "photoStanding": "/images/Saucedo-04.webp",
+    "photoSitting": "/images/Saucedo-02.webp",
+    "practiceAreas": [
+      "derecho-fiscal",
+      "derecho-corporativo"
+    ],
+    "order": 8,
+    "role": {
+      "es": "Abogado / Especialista en Derecho Fiscal y Corporativo",
+      "en": "Attorney / Tax and Corporate Law Specialist",
+      "zh": "律师 / 税法与公司法专家",
+      "ko": "변호사 / 세법 및 기업법 전문가"
+    },
+    "bio": {
+      "es": "Omar Alejandro Gaytán Arellano es abogado con amplia experiencia en el Derecho Fiscal y Derecho Empresarial y Corporativo. Su enfoque estratégico en la asesoría legal le ha permitido colaborar con empresas de diferentes giros comerciales, brindando soluciones jurídicas integrales y personalizadas para cada cliente.\n\nSu experiencia incluye la representación de empresas de diversos sectores, como construcción, bienes raíces, salud, tecnología y servicios profesionales, que operan tanto en México como a nivel internacional. Además, ha logrado negociar acuerdos favorables en diversos sectores, utilizando su capacidad de negociación para resolver conflictos de manera ágil y efectiva.\n\nHa colaborado en la elaboración de proyectos legislativos a nivel de participación ciudadana, así como en el diseño de programas de innovación y tecnología que benefician tanto a empresas como a organismos de gobierno. Su participación ha sido fundamental en la creación de proyectos que fomentan el crecimiento de las empresas, sobre todo en temas de innovación y tecnología.",
+      "en": "Omar Alejandro Gaytán Arellano is an attorney with extensive experience in Tax Law and Business and Corporate Law. His strategic approach to legal advice has allowed him to collaborate with companies across different industries, providing comprehensive, personalized legal solutions for each client.\n\nHis experience includes representing companies in various sectors, such as construction, real estate, health, technology and professional services, operating both in Mexico and internationally. He has also successfully negotiated favorable agreements in various sectors, using his negotiation skills to resolve conflicts swiftly and effectively.\n\nHe has collaborated in drafting legislative projects at the citizen participation level, as well as in designing innovation and technology programs that benefit both companies and government bodies. His participation has been fundamental in creating projects that foster business growth, especially in innovation and technology.",
+      "zh": "Omar Alejandro Gaytán Arellano 是一名在税法以及商事与公司法方面经验丰富的律师。他在法律咨询方面的战略方法使他能够与不同行业的企业合作，为每位客户提供全面、个性化的法律解决方案。\n\n他的经验包括代理建筑、房地产、医疗、科技与专业服务等多个行业的企业，这些企业在墨西哥国内与国际上均有业务。他还在多个行业成功谈判达成了有利协议，运用谈判能力迅速、有效地解决冲突。\n\n他曾参与起草公民参与层面的立法项目，并参与设计惠及企业与政府机构的创新与技术项目。他的参与对创建促进企业发展的项目起到了关键作用，尤其是在创新与技术领域。",
+      "ko": "Omar Alejandro Gaytán Arellano는 세법 및 기업·상사법 분야에서 폭넓은 경험을 가진 변호사입니다. 법률 자문에 대한 전략적 접근을 통해 다양한 업종의 기업들과 협력하며 각 고객에게 종합적이고 맞춤형 법률 솔루션을 제공해 왔습니다.\n\n그의 경험에는 건설, 부동산, 의료, 기술 및 전문 서비스 등 다양한 분야의 기업들을 대리하는 것이 포함되며, 이들 기업은 멕시코 국내외에서 활동하고 있습니다. 또한 다양한 분야에서 유리한 합의를 성공적으로 협상하며, 협상 능력을 활용해 분쟁을 신속하고 효과적으로 해결해 왔습니다.\n\n시민 참여 차원의 입법 프로젝트 작성에 협력했으며, 기업과 정부 기관 모두에 혜택을 주는 혁신 및 기술 프로그램 설계에도 참여했습니다. 그의 참여는 기업 성장을 촉진하는 프로젝트, 특히 혁신과 기술 분야의 프로젝트를 만드는 데 핵심적인 역할을 했습니다."
+    },
+    "education": {
+      "es": "Licenciado en Derecho, Facultad de Derecho de la Universidad Panamericana. Master en Derecho y Economía con especialización en Derecho Fiscal, Finanzas y Administración. Cursos y Diplomados en Derecho Fiscal, además de otros cursos profesionales. Certificación Internacional en Compliance y Riesgo Legal. ESG y Compliance Global: Cumplimiento de Estándares de Plásticos Globales. Seguridad de Datos y Protección de Información. Conducta Ética, Conducta Empresarial y Responsabilidades. Curso Especializado en Derecho Fiscal y Empresarial. Asesoría de empresas desde su constitución, creación de empresas. Formación como conciliador y mediador de la Secretaría de Trabajo y Previsión Social de México.",
+      "en": "LL.B., Faculty of Law, Universidad Panamericana. Master in Law and Economics with a specialization in Tax Law, Finance and Administration. Courses and Diplomas in Tax Law, as well as other professional courses. International Certification in Compliance and Legal Risk. ESG and Global Compliance: Compliance with Global Plastics Standards. Data Security and Information Protection. Ethical Conduct, Business Conduct and Responsibilities. Specialized Course in Tax and Business Law. Advising companies from their incorporation, company creation. Training as a conciliator and mediator of the Mexican Ministry of Labor and Social Welfare.",
+      "zh": "泛美大学法学院法学学士。法律与经济学硕士，专长税法、金融与管理。税法课程与文凭及其他专业课程。合规与法律风险国际认证。ESG与全球合规：全球塑料标准合规。数据安全与信息保护。道德行为、企业行为与责任。税法与商事法专业课程。自公司设立起为企业提供咨询、公司创建。墨西哥劳动与社会保障部调解员与和解员培训。",
+      "ko": "Universidad Panamericana 법학부 법학 학사. 세법, 금융 및 경영 전공 법학과 경제학 석사. 세법 관련 과정 및 디플로마, 기타 전문 과정. 컴플라이언스 및 법률 리스크 국제 인증. ESG 및 글로벌 컴플라이언스: 글로벌 플라스틱 표준 준수. 데이터 보안 및 정보 보호. 윤리적 행동, 기업 행동 및 책임. 세법 및 기업법 전문 과정. 설립 단계부터 기업 자문, 기업 설립. 멕시코 노동사회복지부 조정인 및 중재인 교육."
+    }
+  },
+  {
+    "name": "Verónica Sarahí López Santos",
+    "slug": "veronica-sarahi-lopez-santos",
+    "email": "",
+    "phone": "844-343-8333",
+    "photoStanding": "/images/Veronica-06.webp",
+    "photoSitting": "/images/Veronica-13.webp",
+    "practiceAreas": [
+      "derecho-laboral",
+      "derecho-penal"
+    ],
+    "order": 9,
+    "role": {
+      "es": "Abogada / Especialista en Derecho Laboral y Penal",
+      "en": "Attorney / Labor and Criminal Law Specialist",
+      "zh": "律师 / 劳动法与刑法专家",
+      "ko": "변호사 / 노동법 및 형법 전문가"
+    },
+    "bio": {
+      "es": "Abogada enfocada en el área laboral, el Derecho penal y litigación oral, con experiencia en diversas áreas del derecho para resolver conflictos de manera efectiva y acertada.\n\nHa trabajado en la Contraloría Interna del Poder Judicial del Estado de Coahuila y en el Centro de Justicia Penal, donde fortaleció sus habilidades en litigación oral y en la investigación criminalística. Esto le ha permitido desarrollarse en el área del derecho penal como una abogada que ha participado en investigaciones criminalísticas, litigación de casos de alto impacto y estrategia de defensa.\n\nSu práctica se centra en la atención de casos de discriminación, hostigamiento y violencia de género, así como en la conciliación y mediación de conflictos mediante la aplicación de medios alternativos de solución de controversias, lo que le permite abordar casos específicos de manera profesional y comprometida.",
+      "en": "Attorney focused on labor law, Criminal Law and oral litigation, with experience in various areas of law to resolve conflicts effectively and accurately.\n\nShe has worked in the Internal Comptroller's Office of the Judicial Branch of the State of Coahuila and at the Criminal Justice Center, where she strengthened her skills in oral litigation and criminal investigation. This has allowed her to develop in Criminal Law as an attorney who has participated in criminal investigations, litigation of high-impact cases and defense strategy.\n\nHer practice focuses on cases of discrimination, harassment and gender-based violence, as well as on the conciliation and mediation of conflicts through alternative dispute resolution methods, which allows her to handle specific cases professionally and with commitment.",
+      "zh": "她是一名专注于劳动法、刑法与口头诉讼的律师，在多个法律领域拥有有效、准确解决冲突的经验。\n\n她曾在科阿韦拉州司法机关内部监察部门与刑事司法中心工作，在那里提升了口头诉讼与刑事侦查方面的能力。这使她在刑法领域得到发展，曾参与刑事侦查、高影响力案件诉讼与辩护策略。\n\n其实践专注于歧视、骚扰与性别暴力案件，以及通过替代性争议解决方式进行冲突调解与和解，这使她能够以专业、尽责的态度处理具体案件。",
+      "ko": "노동법, 형법 및 구술 소송에 중점을 둔 변호사로, 다양한 법률 분야에서 분쟁을 효과적이고 정확하게 해결한 경험을 보유하고 있습니다.\n\n코아우일라주 사법부 내부 감사실과 형사사법센터에서 근무하며 구술 소송과 범죄 수사 역량을 강화했습니다. 이를 통해 형사 수사, 파급력이 큰 사건의 소송 및 방어 전략에 참여한 형법 변호사로 성장할 수 있었습니다.\n\n그녀의 실무는 차별, 괴롭힘 및 젠더 기반 폭력 사건과 대체적 분쟁 해결 방법을 통한 분쟁 조정 및 중재에 중점을 두며, 이를 통해 구체적인 사건을 전문적이고 헌신적으로 처리할 수 있습니다."
+    },
+    "education": {
+      "es": "Licenciatura en Derecho, Universidad Autónoma de Coahuila (2015–2020). Maestría en Derecho con acentuación en Derecho Administrativo por la Universidad Autónoma de Coahuila (2020–2023). Diplomado en Litigación Oral, Etapa de Juicio, llevado a cabo por el Instituto de Estudios Jurídicos Liber Iudicium (2024). Talleres de Conciliación y Mediación en el Centro Judicial de Mediación de la Universidad Autónoma del Noreste (UANE) (2024). Diplomado en Medios Contemporáneos de Solución de Controversias, impartido por la Facultad de Jurisprudencia de la Universidad Autónoma de Coahuila (2024).",
+      "en": "LL.B., Universidad Autónoma de Coahuila (2015–2020). Master of Laws (LL.M.) in Administrative Law, Universidad Autónoma de Coahuila (2020–2023). Diploma in Oral Litigation, Trial Stage, held by the Instituto de Estudios Jurídicos Liber Iudicium (2024). Conciliation and Mediation Workshops at the Judicial Mediation Center of Universidad Autónoma del Noreste (UANE) (2024). Diploma in Contemporary Dispute Resolution Methods, given by the Faculty of Jurisprudence of Universidad Autónoma de Coahuila (2024).",
+      "zh": "科阿韦拉自治大学法学学士（2015–2020）。科阿韦拉自治大学行政法方向法学硕士（2020–2023）。口头诉讼文凭（审判阶段），由Liber Iudicium法律研究院举办（2024）。东北自治大学（UANE）司法调解中心调解与和解研讨会（2024）。当代争议解决方式文凭，由科阿韦拉自治大学法学院授课（2024）。",
+      "ko": "코아우일라 자치대학교 법학 학사(2015–2020). 코아우일라 자치대학교 행정법 전공 법학 석사(2020–2023). 구술 소송 디플로마, 재판 단계, Instituto de Estudios Jurídicos Liber Iudicium 주관(2024). Universidad Autónoma del Noreste (UANE) 사법 조정 센터 조정 및 중재 워크숍(2024). 현대 분쟁 해결 방법 디플로마, 코아우일라 자치대학교 법학부 주관(2024)."
+    }
+  }
+]
