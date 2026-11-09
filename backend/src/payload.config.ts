@@ -16,22 +16,8 @@ const filename = fileURLToPath(import.meta.url)
 const dirname = path.dirname(filename)
 
 export default buildConfig({
-  cors: [
-    'http://localhost:3000',
-    'http://localhost:3001',
-    'http://127.0.0.1:3000',
-    'http://127.0.0.1:3001',
-    'http://192.168.1.69:3000',
-    'http://192.168.1.69:3001',
-  ],
-  csrf: [
-    'http://localhost:3000',
-    'http://localhost:3001',
-    'http://127.0.0.1:3000',
-    'http://127.0.0.1:3001',
-    'http://192.168.1.69:3000',
-    'http://192.168.1.69:3001',
-  ],
+  cors: '*',
+  csrf: process.env.CSRF_ORIGINS ? process.env.CSRF_ORIGINS.split(',') : undefined,
   admin: {
     user: Users.slug,
     importMap: {
