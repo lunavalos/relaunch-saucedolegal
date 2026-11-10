@@ -1,5 +1,6 @@
 import { sqliteAdapter } from '@payloadcms/db-sqlite'
 import { lexicalEditor } from '@payloadcms/richtext-lexical'
+import fs from 'fs'
 import path from 'path'
 import { buildConfig } from 'payload'
 import { fileURLToPath } from 'url'
@@ -14,6 +15,15 @@ import { Portada } from './globals/Portada'
 
 const filename = fileURLToPath(import.meta.url)
 const dirname = path.dirname(filename)
+
+const defaultDbUrl = (() => {
+  if (process.env.DATABASE_URI) return process.env.DATABASE_URI
+  if (process.env.COOLIFY_URL || fs.existsSync('/app/data')) {
+    fs.mkdirSync('/app/data', { recursive: true })
+    return 'file:/app/data/payload.db'
+  }
+  return 'file:./payload.db'
+})()
 
 export default buildConfig({
   cors: '*',
@@ -52,7 +62,7 @@ export default buildConfig({
   },
   db: sqliteAdapter({
     client: {
-      url: process.env.DATABASE_URI || 'file:./payload.db',
+      url: defaultDbUrl,
     },
   }),
 })
