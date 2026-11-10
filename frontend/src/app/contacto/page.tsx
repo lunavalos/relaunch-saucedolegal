@@ -1,8 +1,13 @@
 'use client';
 
 import React, { useState } from 'react';
+import Script from 'next/script';
 import { useLanguage } from '@/i18n/LanguageContext';
-import { Mail, Phone, MapPin, CheckCircle2 } from 'lucide-react';
+import { api } from '@/services/api';
+import { Mail, Phone, MapPin, CheckCircle2, AlertCircle } from 'lucide-react';
+
+const RECAPTCHA_SITE_KEY =
+  process.env.NEXT_PUBLIC_RECAPTCHA_SITE_KEY || '6LfqsRkuAAAAALf3ep6azK7LhCec9CL8jesgYpNd';
 
 const SERVICES_DICT: Record<string, { es: string; en: string; zh: string; ko: string }> = {
   socialSecurity: { es: 'Seguridad Social', en: 'Social Security', zh: '社会保障与劳动福利', ko: '사회보장법' },
@@ -30,6 +35,7 @@ export default function ContactoPage() {
   });
   const [submitted, setSubmitted] = useState(false);
   const [isSending, setIsSending] = useState(false);
+  const [errorMsg, setErrorMsg] = useState<string | null>(null);
 
   const toggleService = (svcKey: string) => {
     setFormData((prev) => ({
@@ -40,11 +46,37 @@ export default function ContactoPage() {
     }));
   };
 
-  const handleSubmit = (e: React.FormEvent) => {
+  const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
     setIsSending(true);
-    setTimeout(() => {
-      setIsSending(false);
+    setErrorMsg(null);
+
+    try {
+      let recaptchaToken: string | undefined;
+      const grecaptcha = (window as any).grecaptcha;
+      if (grecaptcha && typeof grecaptcha.execute === 'function') {
+        try {
+          await new Promise<void>((resolve) => grecaptcha.ready(() => resolve()));
+          recaptchaToken = await grecaptcha.execute(RECAPTCHA_SITE_KEY, { action: 'contact_form' });
+        } catch (rcErr) {
+          console.warn('[reCAPTCHA] No se pudo generar token en este dominio:', rcErr);
+        }
+      }
+
+      const selectedLabels = formData.servicios.map(
+        (key) => SERVICES_DICT[key]?.es || key
+      );
+
+      await api.submitContactForm({
+        nombre: formData.nombre.trim(),
+        correo: formData.correo.trim(),
+        telefono: formData.telefono.trim(),
+        servicios: selectedLabels.join(', '),
+        mensaje: formData.mensaje.trim(),
+        idioma: language,
+        recaptchaToken,
+      });
+
       setSubmitted(true);
       setFormData({
         nombre: '',
@@ -53,11 +85,20 @@ export default function ContactoPage() {
         mensaje: '',
         servicios: [],
       });
-    }, 800);
+    } catch (err) {
+      console.error('[Contacto] Error enviando mensaje:', err);
+      setErrorMsg(t.contact.errorMessage);
+    } finally {
+      setIsSending(false);
+    }
   };
 
   return (
     <div className="min-h-screen bg-white text-[#111214]">
+      <Script
+        src={`https://www.google.com/recaptcha/api.js?render=${RECAPTCHA_SITE_KEY}`}
+        strategy="afterInteractive"
+      />
       
       {/* 1. HERO BANNER */}
       <section className="relative w-full h-[42vh] min-h-[320px] md:h-[48vh] flex items-center justify-center overflow-hidden">
@@ -325,6 +366,13 @@ export default function ContactoPage() {
                       {t.contact.privacyNote}
                     </p>
                   </div>
+
+                  {errorMsg && (
+                    <div className="flex items-start gap-2.5 p-4 bg-red-50 border border-red-200 text-red-700 text-xs font-sans">
+                      <AlertCircle className="w-4 h-4 shrink-0 mt-0.5" />
+                      <span>{errorMsg}</span>
+                    </div>
+                  )}
 
                   {/* Botón de envío */}
                   <div>

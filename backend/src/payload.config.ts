@@ -11,6 +11,7 @@ import { Equipo } from './collections/Equipo'
 import { AreaPractica } from './collections/AreaPractica'
 import { Galeria } from './collections/Galeria'
 import { Videos } from './collections/Videos'
+import { MensajesContacto } from './collections/MensajesContacto'
 import { Portada } from './globals/Portada'
 
 const filename = fileURLToPath(import.meta.url)
@@ -41,6 +42,7 @@ export default buildConfig({
     AreaPractica,
     Galeria,
     Videos,
+    MensajesContacto,
   ],
   globals: [
     Portada,

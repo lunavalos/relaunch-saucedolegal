@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import { useLanguage } from '../i18n/LanguageContext';
+import { api } from '../services/api';
 import { 
   MapPin, 
   Phone, 
@@ -26,7 +27,7 @@ const SERVICES_OPTIONS = [
 ];
 
 export const ContactoSection: React.FC = () => {
-  const { t } = useLanguage();
+  const { t, language } = useLanguage();
   const [formData, setFormData] = useState({
     name: '',
     email: '',
@@ -37,12 +38,18 @@ export const ContactoSection: React.FC = () => {
   const [isSubmitting, setIsSubmitting] = useState(false);
   const [submitted, setSubmitted] = useState(false);
 
-  const handleSubmit = (e: React.FormEvent) => {
+  const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
     setIsSubmitting(true);
-    // Simulate immediate successful contact form submission
-    setTimeout(() => {
-      setIsSubmitting(false);
+    try {
+      await api.submitContactForm({
+        nombre: formData.name.trim(),
+        correo: formData.email.trim(),
+        telefono: formData.phone.trim(),
+        servicios: formData.service,
+        mensaje: formData.message.trim(),
+        idioma: language,
+      });
       setSubmitted(true);
       setFormData({
         name: '',
@@ -51,7 +58,11 @@ export const ContactoSection: React.FC = () => {
         service: '',
         message: '',
       });
-    }, 900);
+    } catch (err) {
+      console.error('[ContactoSection] Error:', err);
+    } finally {
+      setIsSubmitting(false);
+    }
   };
 
   return (

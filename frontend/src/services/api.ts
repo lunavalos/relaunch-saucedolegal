@@ -452,5 +452,28 @@ export const api = {
       console.warn('[Payload CMS] No se pudo conectar al backend para portada, usando fallback.', err);
     }
     return null;
+  },
+
+  async submitContactForm(payload: {
+    nombre: string;
+    correo: string;
+    telefono?: string;
+    servicios?: string;
+    mensaje: string;
+    idioma?: string;
+    recaptchaToken?: string;
+  }): Promise<boolean> {
+    const res = await fetch(`${API_URL}/mensajes-contacto`, {
+      method: 'POST',
+      headers: {
+        'Content-Type': 'application/json',
+      },
+      body: JSON.stringify(payload),
+    });
+    if (!res.ok) {
+      const errData = await res.json().catch(() => null);
+      throw new Error(errData?.errors?.[0]?.message || 'Error al enviar el formulario');
+    }
+    return true;
   }
 };
