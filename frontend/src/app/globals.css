@@ -117,3 +117,11 @@
 .delay-300 { transition-delay: 300ms !important; }
 .delay-375 { transition-delay: 375ms !important; }
 .delay-450 { transition-delay: 450ms !important; }
+
+/* Hide floating Google reCAPTCHA v3 badge (permitted by Google since disclaimer is shown in the form) */
+.grecaptcha-badge {
+  visibility: hidden !important;
+  opacity: 0 !important;
+  pointer-events: none !important;
+}
+
