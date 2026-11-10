@@ -9,6 +9,7 @@ node_modules/
 .pnp.js
 
 # Build Outputs & Next.js cache
+*.tsbuildinfo
 .next/
 */.next/
 out/
