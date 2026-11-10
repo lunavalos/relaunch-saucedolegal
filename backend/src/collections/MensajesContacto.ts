@@ -56,11 +56,12 @@ export const MensajesContacto: CollectionConfig = {
         }
 
         // 2. Enviar notificación por correo electrónico vía SMTP
-        const smtpHost = process.env.SMTP_HOST || 'mail.saucedolegal.com'
-        const smtpPort = Number(process.env.SMTP_PORT || 465)
-        const smtpUser = process.env.SMTP_USER || 'noreply@saucedolegal.com'
-        let smtpPass = process.env.SMTP_PASS?.trim()
-        const receiverEmail = process.env.CONTACT_RECEIVER_EMAIL || 'contacto@saucedolegal.com'
+        const cleanEnv = (val?: string) => val?.trim().replace(/^['"]|['"]$/g, '')
+        const smtpHost = cleanEnv(process.env.SMTP_HOST) || 'mail.saucedolegal.com'
+        const smtpPort = Number(cleanEnv(process.env.SMTP_PORT) || 465)
+        const smtpUser = cleanEnv(process.env.SMTP_USER) || 'noreply@saucedolegal.com'
+        let smtpPass = cleanEnv(process.env.SMTP_PASS)
+        const receiverEmail = cleanEnv(process.env.CONTACT_RECEIVER_EMAIL) || 'contacto@saucedolegal.com'
 
         // Soportar contraseña en Base64 (prefijo base64:) o restaurar $ux si Docker/Coolify lo interpoló como variable vacía
         if (smtpPass?.startsWith('base64:')) {
@@ -69,87 +70,106 @@ export const MensajesContacto: CollectionConfig = {
           smtpPass = smtpPass.replace('(z4*', '(z4$ux*')
         }
 
+        const baseLang = (data.idioma || 'es').toUpperCase()
+
         if (!smtpPass) {
           console.warn('[Contacto SMTP] Falta la variable de entorno SMTP_PASS. El mensaje se guardó en Payload pero no se envió por correo.')
           data.emailEnviado = false
+          data.idioma = `${baseLang} — Falta variable SMTP_PASS en Coolify`
           return data
         }
 
-        try {
-          const transporter = nodemailer.createTransport({
-            host: smtpHost,
-            port: smtpPort,
-            secure: smtpPort === 465,
-            auth: {
-              user: smtpUser,
-              pass: smtpPass,
-            },
-            tls: {
-              rejectUnauthorized: false,
-            },
-          })
+        const htmlBody = `
+          <div style="font-family: Georgia, serif; max-width: 620px; margin: 0 auto; border: 1px solid #e5e7eb; background-color: #ffffff; color: #111214;">
+            <div style="background-color: #111214; color: #ffffff; padding: 24px 32px;">
+              <p style="margin: 0; font-family: Arial, sans-serif; font-size: 11px; letter-spacing: 2px; text-transform: uppercase; color: #959597;">
+                SAUCEDO CONSULTORÍA JURÍDICA Y MEDIACIÓN
+              </p>
+              <h2 style="margin: 8px 0 0 0; font-weight: normal; font-size: 22px;">
+                Nuevo Mensaje de Contacto
+              </h2>
+            </div>
+            <div style="padding: 32px;">
+              <table style="width: 100%; border-collapse: collapse; font-family: Arial, sans-serif; font-size: 14px;">
+                <tr>
+                  <td style="padding: 10px 0; border-bottom: 1px solid #f3f4f6; color: #6b7280; width: 160px;"><strong>Nombre:</strong></td>
+                  <td style="padding: 10px 0; border-bottom: 1px solid #f3f4f6; color: #111214;">${data.nombre || '-'}</td>
+                </tr>
+                <tr>
+                  <td style="padding: 10px 0; border-bottom: 1px solid #f3f4f6; color: #6b7280;"><strong>Correo electrónico:</strong></td>
+                  <td style="padding: 10px 0; border-bottom: 1px solid #f3f4f6; color: #111214;">
+                    <a href="mailto:${data.correo}" style="color: #111214;">${data.correo || '-'}</a>
+                  </td>
+                </tr>
+                <tr>
+                  <td style="padding: 10px 0; border-bottom: 1px solid #f3f4f6; color: #6b7280;"><strong>Teléfono:</strong></td>
+                  <td style="padding: 10px 0; border-bottom: 1px solid #f3f4f6; color: #111214;">${data.telefono || 'No proporcionado'}</td>
+                </tr>
+                <tr>
+                  <td style="padding: 10px 0; border-bottom: 1px solid #f3f4f6; color: #6b7280;"><strong>Servicios de interés:</strong></td>
+                  <td style="padding: 10px 0; border-bottom: 1px solid #f3f4f6; color: #111214;">${data.servicios || 'No especificado'}</td>
+                </tr>
+                <tr>
+                  <td style="padding: 10px 0; border-bottom: 1px solid #f3f4f6; color: #6b7280;"><strong>Idioma:</strong></td>
+                  <td style="padding: 10px 0; border-bottom: 1px solid #f3f4f6; color: #111214;">${baseLang}</td>
+                </tr>
+              </table>
 
-          const htmlBody = `
-            <div style="font-family: Georgia, serif; max-width: 620px; margin: 0 auto; border: 1px solid #e5e7eb; background-color: #ffffff; color: #111214;">
-              <div style="background-color: #111214; color: #ffffff; padding: 24px 32px;">
-                <p style="margin: 0; font-family: Arial, sans-serif; font-size: 11px; letter-spacing: 2px; text-transform: uppercase; color: #959597;">
-                  SAUCEDO CONSULTORÍA JURÍDICA Y MEDIACIÓN
+              <div style="margin-top: 24px;">
+                <p style="font-family: Arial, sans-serif; font-size: 12px; text-transform: uppercase; letter-spacing: 1px; color: #6b7280; margin-bottom: 8px;">
+                  <strong>Detalles del Asunto / Mensaje:</strong>
                 </p>
-                <h2 style="margin: 8px 0 0 0; font-weight: normal; font-size: 22px;">
-                  Nuevo Mensaje de Contacto
-                </h2>
-              </div>
-              <div style="padding: 32px;">
-                <table style="width: 100%; border-collapse: collapse; font-family: Arial, sans-serif; font-size: 14px;">
-                  <tr>
-                    <td style="padding: 10px 0; border-bottom: 1px solid #f3f4f6; color: #6b7280; width: 160px;"><strong>Nombre:</strong></td>
-                    <td style="padding: 10px 0; border-bottom: 1px solid #f3f4f6; color: #111214;">${data.nombre || '-'}</td>
-                  </tr>
-                  <tr>
-                    <td style="padding: 10px 0; border-bottom: 1px solid #f3f4f6; color: #6b7280;"><strong>Correo electrónico:</strong></td>
-                    <td style="padding: 10px 0; border-bottom: 1px solid #f3f4f6; color: #111214;">
-                      <a href="mailto:${data.correo}" style="color: #111214;">${data.correo || '-'}</a>
-                    </td>
-                  </tr>
-                  <tr>
-                    <td style="padding: 10px 0; border-bottom: 1px solid #f3f4f6; color: #6b7280;"><strong>Teléfono:</strong></td>
-                    <td style="padding: 10px 0; border-bottom: 1px solid #f3f4f6; color: #111214;">${data.telefono || 'No proporcionado'}</td>
-                  </tr>
-                  <tr>
-                    <td style="padding: 10px 0; border-bottom: 1px solid #f3f4f6; color: #6b7280;"><strong>Servicios de interés:</strong></td>
-                    <td style="padding: 10px 0; border-bottom: 1px solid #f3f4f6; color: #111214;">${data.servicios || 'No especificado'}</td>
-                  </tr>
-                  <tr>
-                    <td style="padding: 10px 0; border-bottom: 1px solid #f3f4f6; color: #6b7280;"><strong>Idioma:</strong></td>
-                    <td style="padding: 10px 0; border-bottom: 1px solid #f3f4f6; color: #111214;">${(data.idioma || 'es').toUpperCase()}</td>
-                  </tr>
-                </table>
-
-                <div style="margin-top: 24px;">
-                  <p style="font-family: Arial, sans-serif; font-size: 12px; text-transform: uppercase; letter-spacing: 1px; color: #6b7280; margin-bottom: 8px;">
-                    <strong>Detalles del Asunto / Mensaje:</strong>
-                  </p>
-                  <div style="background-color: #f9fafb; border-left: 3px solid #111214; padding: 16px; font-family: Georgia, serif; font-size: 15px; line-height: 1.6; white-space: pre-wrap;">${data.mensaje || ''}</div>
-                </div>
-              </div>
-              <div style="background-color: #f9fafb; padding: 16px 32px; border-top: 1px solid #e5e7eb; font-family: Arial, sans-serif; font-size: 12px; color: #6b7280;">
-                Puedes responder directamente a este correo para contactar a <strong>${data.nombre}</strong> (${data.correo}).
+                <div style="background-color: #f9fafb; border-left: 3px solid #111214; padding: 16px; font-family: Georgia, serif; font-size: 15px; line-height: 1.6; white-space: pre-wrap;">${data.mensaje || ''}</div>
               </div>
             </div>
-          `
+            <div style="background-color: #f9fafb; padding: 16px 32px; border-top: 1px solid #e5e7eb; font-family: Arial, sans-serif; font-size: 12px; color: #6b7280;">
+              Puedes responder directamente a este correo para contactar a <strong>${data.nombre}</strong> (${data.correo}).
+            </div>
+          </div>
+        `
 
-          await transporter.sendMail({
-            from: `"Saucedo Legal Web" <${smtpUser}>`,
-            to: receiverEmail,
-            replyTo: data.correo,
-            subject: `Nuevo mensaje de contacto: ${data.nombre} — Saucedo Legal`,
-            html: htmlBody,
-          })
+        const portsToTry = smtpPort === 465 ? [465, 587] : [smtpPort, 465]
+        let lastError = ''
 
-          data.emailEnviado = true
-        } catch (err) {
-          console.error('[Contacto SMTP] Error enviando correo:', err)
-          data.emailEnviado = false
+        for (const port of portsToTry) {
+          try {
+            const transporter = nodemailer.createTransport({
+              host: smtpHost,
+              port,
+              secure: port === 465,
+              auth: {
+                user: smtpUser,
+                pass: smtpPass,
+              },
+              tls: {
+                rejectUnauthorized: false,
+              },
+              connectionTimeout: 10000,
+              greetingTimeout: 10000,
+              socketTimeout: 15000,
+            })
+
+            await transporter.sendMail({
+              from: `"Saucedo Legal Web" <${smtpUser}>`,
+              to: receiverEmail,
+              replyTo: data.correo,
+              subject: `Nuevo mensaje de contacto: ${data.nombre} — Saucedo Legal`,
+              html: htmlBody,
+            })
+
+            data.emailEnviado = true
+            data.idioma = `${baseLang} (Enviado a ${receiverEmail} vía ${smtpHost}:${port})`
+            lastError = ''
+            break
+          } catch (err: any) {
+            lastError = err?.message || String(err)
+            console.error(`[Contacto SMTP] Error en ${smtpHost}:${port} (${smtpUser}):`, lastError)
+            data.emailEnviado = false
+          }
+        }
+
+        if (!data.emailEnviado && lastError) {
+          data.idioma = `${baseLang} — Error SMTP (${smtpUser}@${smtpHost}): ${lastError}`
         }
 
         return data
