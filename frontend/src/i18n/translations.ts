@@ -319,7 +319,7 @@ export const translations: Record<Language, Translations> = {
       submitting: 'Enviando información...',
       successMessage: '¡Gracias por contactarnos! Su mensaje ha sido enviado correctamente. Nos comunicaremos con usted a la brevedad.',
       errorMessage: 'Hubo un error al enviar el formulario. Por favor comuníquese directamente al 844-343-8333.',
-      privacyNote: 'Nota de confidencialidad: El envío de datos a través de este formulario no establece una relación contractual formal con Saucedo Legal. La información proporcionada es tratada con absoluta reserva y bajo nuestro aviso de privacidad.',
+      privacyNote: 'Nota de confidencialidad: El envío de datos a través de este formulario no establece una relación contractual formal con Saucedo Legal. La información proporcionada es tratada con absoluta reserva y bajo nuestro aviso de privacidad. Este sitio está protegido por reCAPTCHA y se aplican la Política de Privacidad y los Términos de Servicio de Google.',
     },
     footer: {
       description: 'Firma legal de consultoría jurídica, asesoría corporativa integral y mediación con más de dos décadas de excelencia profesional en Saltillo, Coahuila y México.',
@@ -503,7 +503,7 @@ export const translations: Record<Language, Translations> = {
       submitting: 'Submitting...',
       successMessage: 'Thank you for reaching out! Your message was sent successfully. We will contact you shortly.',
       errorMessage: 'An error occurred while submitting the form. Please call us directly at 844-343-8333.',
-      privacyNote: 'Privacy Notice: Submitting this inquiry does not create an attorney-client relationship. All submitted data is treated with strict confidentiality under our privacy standards.',
+      privacyNote: 'Privacy Notice: Submitting this inquiry does not create an attorney-client relationship. All submitted data is treated with strict confidentiality under our privacy standards. This site is protected by reCAPTCHA and the Google Privacy Policy and Terms of Service apply.',
     },
     footer: {
       description: 'Premier Mexican law firm delivering corporate advisory, labor defense, and dispute mediation with more than 20 years of excellence in Saltillo, Coahuila.',
@@ -687,7 +687,7 @@ export const translations: Record<Language, Translations> = {
       submitting: '正在提交...',
       successMessage: '提交成功！我们已收到您的咨询信息，将尽快与您联系。',
       errorMessage: '提交失败，请直接致电 +52 844-343-8333 与我们联系。',
-      privacyNote: '保密提示：通过本表单提交信息并不直接建立委托代理关系。所有信息均依照墨西哥隐私法严格保密。',
+      privacyNote: '保密提示：通过本表单提交信息并不直接建立委托代理关系。所有信息均依照墨西哥隐私法严格保密。本网站受 reCAPTCHA 保护，适用 Google 隐私权政策和服务条款。',
     },
     footer: {
       description: '墨西哥科阿韦拉州20余年卓越历程的顶尖商事法律顾问与诉讼调解综合服务律所。',
@@ -871,7 +871,7 @@ export const translations: Record<Language, Translations> = {
       submitting: '전송 중...',
       successMessage: '문의가 성공적으로 접수되었습니다! 빠른 시일 내에 연락드리겠습니다.',
       errorMessage: '전송 중 오류가 발생했습니다. 직통 번호 844-343-8333으로 연락 바랍니다.',
-      privacyNote: '개인정보 보호 안내: 본 양식 제출은 정식 수임 계약을 성립시키지 않으며, 제출된 모든 정보는 엄격한 개인정보 처리 방침에 따라 보호됩니다.',
+      privacyNote: '개인정보 보호 안내: 본 양식 제출은 정식 수임 계약을 성립시키지 않으며, 제출된 모든 정보는 엄격한 개인정보 처리 방침에 따라 보호됩니다. 이 사이트는 reCAPTCHA로 보호되며 Google 개인정보처리방침 및 서비스 약관이 적용됩니다.',
     },
     footer: {
       description: '멕시코 살티요에서 20년 이상 기업 법률 자문 및 소송, 분쟁 조정을 선도해 온 종합 법률 컨설팅 로펌입니다.',
