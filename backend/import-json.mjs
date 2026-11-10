@@ -1,10 +1,14 @@
 import 'dotenv/config';
+// Force development mode during schema initialization so @payloadcms/db-sqlite pushes SQLite tables automatically
+process.env.NODE_ENV = 'development';
+
 import config from './src/payload.config.ts';
 import { getPayload } from 'payload';
 import fs from 'fs';
 import path from 'path';
 
 const LOCALES = ['es', 'en', 'zh', 'ko'];
+const onlyIfEmpty = process.argv.includes('--if-empty');
 const payload = await getPayload({ config });
 const mediaCache = new Map();
 
@@ -113,6 +117,14 @@ async function resolveMedia(relativePath, alt = '') {
 }
 
 async function runImport() {
+  if (onlyIfEmpty) {
+    const existingAreas = await payload.find({ collection: 'area-practica', limit: 1 });
+    if (existingAreas.totalDocs > 0) {
+      console.log('[Init] La base de datos SQLite ya contiene datos. Omitiendo importación inicial.');
+      process.exit(0);
+    }
+  }
+
   console.log('=== Iniciando Importación Masiva Multi-idioma (es, en, zh, ko) ===');
 
   const areasPath = path.resolve('import-data/areas-practica.json');
