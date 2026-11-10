@@ -56,11 +56,18 @@ export const MensajesContacto: CollectionConfig = {
         }
 
         // 2. Enviar notificación por correo electrónico vía SMTP
-        const smtpHost = process.env.SMTP_HOST || 'mail.saucedolegal.mx'
+        const smtpHost = process.env.SMTP_HOST || 'mail.saucedolegal.com'
         const smtpPort = Number(process.env.SMTP_PORT || 465)
-        const smtpUser = process.env.SMTP_USER || 'noreply@saucedolegal.mx'
-        const smtpPass = process.env.SMTP_PASS
-        const receiverEmail = process.env.CONTACT_RECEIVER_EMAIL || 'contacto@saucedolegal.mx'
+        const smtpUser = process.env.SMTP_USER || 'noreply@saucedolegal.com'
+        let smtpPass = process.env.SMTP_PASS?.trim()
+        const receiverEmail = process.env.CONTACT_RECEIVER_EMAIL || 'contacto@saucedolegal.com'
+
+        // Soportar contraseña en Base64 (prefijo base64:) o restaurar $ux si Docker/Coolify lo interpoló como variable vacía
+        if (smtpPass?.startsWith('base64:')) {
+          smtpPass = Buffer.from(smtpPass.slice(7), 'base64').toString('utf8')
+        } else if (smtpPass?.startsWith('(z4*')) {
+          smtpPass = smtpPass.replace('(z4*', '(z4$ux*')
+        }
 
         if (!smtpPass) {
           console.warn('[Contacto SMTP] Falta la variable de entorno SMTP_PASS. El mensaje se guardó en Payload pero no se envió por correo.')
@@ -211,7 +218,7 @@ export const MensajesContacto: CollectionConfig = {
           name: 'emailEnviado',
           type: 'checkbox',
           defaultValue: false,
-          label: 'Correo enviado a contacto@saucedolegal.mx',
+          label: 'Notificación enviada por correo',
           admin: { width: '34%', readOnly: true },
         },
       ],
