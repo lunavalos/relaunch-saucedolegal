@@ -4,6 +4,7 @@ import React, { useState, useEffect, useRef } from 'react';
 import { useParams, useRouter } from 'next/navigation';
 import Link from 'next/link';
 import { useLanguage } from '@/i18n/LanguageContext';
+import { getLocalizedUrl, getLocalizedDetailUrl } from '@/i18n/navigation';
 import { TeamMember } from '@/types';
 import { api, fallbackTeam } from '@/services/api';
 import { getMediaUrl } from '@/utils/media';
@@ -120,7 +121,7 @@ export default function TeamMemberDetailPage() {
           </p>
           <div>
             <Link
-              href="/equipo"
+              href={getLocalizedUrl("team", language)}
               className="inline-flex items-center gap-2 bg-[#18191a] hover:bg-black text-white px-6 py-2.5 rounded-none font-sans text-xs uppercase tracking-widest font-semibold transition-all shadow-md"
             >
               <ArrowLeft className="w-4 h-4" />
@@ -169,7 +170,7 @@ export default function TeamMemberDetailPage() {
           {/* Back Navigation Link */}
           <div className="mb-10">
             <Link
-              href="/equipo"
+              href={getLocalizedUrl("team", language)}
               className="inline-flex items-center gap-2 text-xs font-sans uppercase tracking-widest text-[#777777] hover:text-black transition-colors group cursor-pointer"
             >
               <ArrowLeft className="w-4 h-4 transition-transform group-hover:-translate-x-1" />
@@ -336,7 +337,7 @@ export default function TeamMemberDetailPage() {
 
                 <div className="flex items-center gap-4">
                   <Link
-                    href="/equipo"
+                    href={getLocalizedUrl("team", language)}
                     className="hidden sm:inline-flex items-center gap-2 text-xs font-sans uppercase tracking-widest font-semibold text-[#111214] hover:text-[#777777] transition-colors group mr-2"
                   >
                     <span>{t.teamDetail.backToTeam}</span>
@@ -375,7 +376,7 @@ export default function TeamMemberDetailPage() {
                 {otherMembers.map((other) => (
                   <Link
                     key={other.slug || other.name}
-                    href={`/equipo/${other.slug}`}
+                    href={getLocalizedDetailUrl("team", other.slug || "", language)}
                     className="w-[260px] sm:w-[280px] shrink-0 group flex flex-col items-center text-center cursor-pointer"
                   >
                     {/* Sitting photo in team cards */}

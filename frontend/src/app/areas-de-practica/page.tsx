@@ -3,6 +3,7 @@
 import React, { useState, useEffect } from 'react';
 import Link from 'next/link';
 import { useLanguage } from '@/i18n/LanguageContext';
+import { getLocalizedDetailUrl } from '@/i18n/navigation';
 import { PracticeArea } from '@/types';
 import { api, fallbackPracticeAreas } from '@/services/api';
 import { AreaIcon } from '@/components/AreaIcon';
@@ -55,7 +56,7 @@ export default function AreasPage() {
             {areas.map((area, idx) => (
               <Link
                 key={area.slug || idx}
-                href={`/areas-de-practica/${area.slug}`}
+                href={getLocalizedDetailUrl("practiceAreas", area.slug || "", language)}
                 data-reveal="fade-up"
                 style={{ transitionDelay: `${(idx % 3) * 110}ms` }}
                 className="bg-white border border-gray-200 hover:border-[#111214] p-8 rounded-none transition-all duration-300 hover:shadow-xl cursor-pointer flex flex-col justify-between group"

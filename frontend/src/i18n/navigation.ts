@@ -112,6 +112,10 @@ export function getLocalizedUrl(pageKey: PageKey, lang: Language): string {
   return slug ? `/${lang}/${slug}` : `/${lang}`;
 }
 
+export function getLocalizedDetailUrl(pageKey: PageKey, detailSlug: string, lang: Language): string {
+  return `${getLocalizedUrl(pageKey, lang)}/${detailSlug}`;
+}
+
 export function getSwitchLanguageUrl(pathname: string, targetLang: Language): string {
   if (!pathname) return targetLang === 'es' ? '/' : `/${targetLang}`;
   

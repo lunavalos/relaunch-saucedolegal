@@ -3,6 +3,7 @@
 import React, { useState, useEffect } from 'react';
 import Link from 'next/link';
 import { useLanguage } from '@/i18n/LanguageContext';
+import { getLocalizedDetailUrl } from '@/i18n/navigation';
 import { TeamMember } from '@/types';
 import { api, fallbackTeam } from '@/services/api';
 import { getMediaUrl } from '@/utils/media';
@@ -56,7 +57,7 @@ export default function EquipoPage() {
             {team.map((member, idx) => (
               <Link
                 key={member.slug || member.name}
-                href={`/equipo/${member.slug}`}
+                href={getLocalizedDetailUrl("team", member.slug || "", language)}
                 data-reveal="fade-up"
                 style={{ transitionDelay: `${(idx % 3) * 120}ms` }}
                 className="group flex flex-col items-center text-center cursor-pointer"

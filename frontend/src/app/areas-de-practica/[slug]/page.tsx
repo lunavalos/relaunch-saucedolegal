@@ -4,7 +4,7 @@ import React, { useState, useEffect, useRef } from 'react';
 import { useParams, useRouter } from 'next/navigation';
 import Link from 'next/link';
 import { useLanguage } from '@/i18n/LanguageContext';
-import { getLocalizedUrl } from '@/i18n/navigation';
+import { getLocalizedUrl, getLocalizedDetailUrl } from '@/i18n/navigation';
 import { PracticeArea } from '@/types';
 import { api, fallbackPracticeAreas } from '@/services/api';
 import { getMediaUrl } from '@/utils/media';
@@ -118,7 +118,7 @@ export default function PracticeAreaDetailPage() {
           </p>
           <div>
             <Link
-              href="/areas-de-practica"
+              href={getLocalizedUrl("practiceAreas", language)}
               className="inline-flex items-center gap-2 bg-[#18191a] hover:bg-black text-white px-6 py-2.5 rounded-none font-sans text-xs uppercase tracking-widest font-semibold transition-all shadow-md"
             >
               <ArrowLeft className="w-4 h-4" />
@@ -169,7 +169,7 @@ export default function PracticeAreaDetailPage() {
           {/* Back Navigation Bar */}
           <div className="mb-10 pb-4 border-b border-gray-200 flex items-center justify-between">
             <Link
-              href="/areas-de-practica"
+              href={getLocalizedUrl("practiceAreas", language)}
               className="inline-flex items-center gap-2 text-xs font-sans uppercase tracking-widest text-gray-500 hover:text-black transition-colors group"
             >
               <ArrowLeft className="w-3.5 h-3.5 group-hover:-translate-x-1 transition-transform" />
@@ -391,7 +391,7 @@ export default function PracticeAreaDetailPage() {
               {otherAreas.map((other, idx) => (
                   <Link
                     key={other.slug || idx}
-                    href={`/areas-de-practica/${other.slug}`}
+                    href={getLocalizedDetailUrl("practiceAreas", other.slug || "", language)}
                     className="flex-none w-[280px] sm:w-[320px] bg-white border border-gray-200 hover:border-[#111214] p-6 transition-all duration-300 hover:shadow-lg flex flex-col justify-between group cursor-pointer"
                   >
                     <div>
