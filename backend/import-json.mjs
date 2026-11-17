@@ -130,6 +130,7 @@ async function runImport() {
   const areasPath = path.resolve('import-data/areas-practica.json');
   const equipoPath = path.resolve('import-data/equipo.json');
   const portadaPath = path.resolve('import-data/portada.json');
+  const videosPath = path.resolve('import-data/videos.json');
 
   // 0. Importar Portada (Homepage Global)
   if (fs.existsSync(portadaPath)) {
@@ -301,6 +302,59 @@ async function runImport() {
             role: getLocalizedVal(m.role, locale),
             bio: getLocalizedVal(m.bio, locale),
             education: getLocalizedVal(m.education, locale),
+          },
+        });
+      }
+    }
+  }
+
+  // 3. Importar Videos
+  if (fs.existsSync(videosPath)) {
+    const videos = JSON.parse(fs.readFileSync(videosPath, 'utf-8'));
+    console.log(`\n-> Procesando ${videos.length} Videos...`);
+
+    for (const v of videos) {
+      const existing = await payload.find({
+        collection: 'videos',
+        where: { order: { equals: v.order } },
+        limit: 1,
+      });
+
+      const baseVideoEs = {
+        title: getLocalizedVal(v.title, 'es'),
+        description: getLocalizedVal(v.description, 'es'),
+        order: v.order ?? 0,
+        ...(v.youtubeUrl ? { youtubeUrl: v.youtubeUrl } : {}),
+      };
+
+      let docId;
+      if (existing.docs.length > 0) {
+        docId = existing.docs[0].id;
+        await payload.update({
+          collection: 'videos',
+          id: docId,
+          locale: 'es',
+          data: baseVideoEs,
+        });
+        console.log(`   ~ Actualizado video [es]: ${baseVideoEs.title}`);
+      } else {
+        const created = await payload.create({
+          collection: 'videos',
+          locale: 'es',
+          data: baseVideoEs,
+        });
+        docId = created.id;
+        console.log(`   + Creado video [es]: ${baseVideoEs.title}`);
+      }
+
+      for (const locale of LOCALES.filter((l) => l !== 'es')) {
+        await payload.update({
+          collection: 'videos',
+          id: docId,
+          locale,
+          data: {
+            title: getLocalizedVal(v.title, locale),
+            description: getLocalizedVal(v.description, locale),
           },
         });
       }

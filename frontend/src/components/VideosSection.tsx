@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { useLanguage } from '../i18n/LanguageContext';
 import { VideoItem } from '../types';
-import { api, fallbackVideos } from '../services/api';
+import { api, getFallbackVideos, fallbackVideos } from '../services/api';
 import { getMediaUrl } from '../utils/media';
 import { Play, Film, ExternalLink, Tv } from 'lucide-react';
 
@@ -14,15 +14,25 @@ function getYouTubeEmbedUrl(url?: string): string | null {
 
 export const VideosSection: React.FC = () => {
   const { t, language } = useLanguage();
-  const [videos, setVideos] = useState<VideoItem[]>(fallbackVideos);
-  const [activeVideo, setActiveVideo] = useState<VideoItem | null>(fallbackVideos[0] || null);
+  const [videos, setVideos] = useState<VideoItem[]>(() => getFallbackVideos(language));
+  const [activeVideo, setActiveVideo] = useState<VideoItem | null>(() => getFallbackVideos(language)[0] || null);
 
   useEffect(() => {
     let isMounted = true;
+    const currentFallback = getFallbackVideos(language);
+    setVideos(currentFallback);
+    setActiveVideo((prev) => {
+      if (!prev) return currentFallback[0] || null;
+      return currentFallback.find((v) => v.order === prev.order) || currentFallback[0] || null;
+    });
+
     api.getVideos(language).then(data => {
       if (isMounted && data && data.length > 0) {
         setVideos(data);
-        setActiveVideo(data[0]);
+        setActiveVideo((prev) => {
+          if (!prev) return data[0] || null;
+          return data.find((v) => v.order === prev.order || v.id === prev.id) || data[0] || null;
+        });
       }
     });
     return () => { isMounted = false; };

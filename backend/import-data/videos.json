@@ -1,0 +1,66 @@
+[
+  {
+    "order": 1,
+    "videoUrl": "/videos/recorrido-virtual.mp4",
+    "title": {
+      "es": "RECORRIDO VIRTUAL",
+      "en": "VIRTUAL TOUR",
+      "zh": "全景虚拟导览",
+      "ko": "가상 투어"
+    },
+    "description": {
+      "es": "Recorrido virtual por las modernas instalaciones de Saucedo Legal.",
+      "en": "Virtual tour of the modern corporate facilities at Saucedo Legal.",
+      "zh": "走进 Saucedo Legal 现代化办公大楼与调解中心。",
+      "ko": "Saucedo Legal의 최첨단 본사 및 시설 가상 투어."
+    }
+  },
+  {
+    "order": 2,
+    "videoUrl": "/videos/quienes-somos.mp4",
+    "title": {
+      "es": "QUIÉNES SOMOS",
+      "en": "ABOUT US",
+      "zh": "关于我们",
+      "ko": "회사 소개"
+    },
+    "description": {
+      "es": "Conoce nuestra historia y el equipo detrás de Saucedo Consultoría Jurídica.",
+      "en": "Learn about our history and the team behind Saucedo Legal Consulting.",
+      "zh": "了解 Saucedo Legal 的发展历程与专业法律团队。",
+      "ko": "Saucedo Legal의 역사와 전문 변호인단을 만나보세요."
+    }
+  },
+  {
+    "order": 3,
+    "videoUrl": "/videos/saucedo-inauguracion.mp4",
+    "title": {
+      "es": "INAUGURACIÓN",
+      "en": "GRAND OPENING",
+      "zh": "开业盛典",
+      "ko": "개소식"
+    },
+    "description": {
+      "es": "Inauguración de nuestras instalaciones corporativas en Saltillo.",
+      "en": "Grand opening of our corporate facilities in Saltillo, Coahuila.",
+      "zh": "我们在萨尔蒂约的全新企业总部大楼落成揭幕典礼。",
+      "ko": "코아우일라주 살티요 본사 사옥 개소식 현장."
+    }
+  },
+  {
+    "order": 4,
+    "videoUrl": "/videos/abogados-saltillo-saucedo-legal.webm",
+    "title": {
+      "es": "NUESTROS SERVICIOS",
+      "en": "OUR SERVICES",
+      "zh": "核心业务",
+      "ko": "법률 서비스"
+    },
+    "description": {
+      "es": "Servicios jurídicos especializados y asesoría legal corporativa integral.",
+      "en": "Specialized legal services and comprehensive corporate legal counsel.",
+      "zh": "全方位企业商事顾问、诉讼与专业法律服务。",
+      "ko": "기업 종합 법률 자문 및 전문 법률 서비스 안내."
+    }
+  }
+]

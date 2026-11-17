@@ -277,41 +277,185 @@ export const fallbackGallery: GalleryItem[] = [
   { title: 'Equipo Saucedo Legal 5', category: 'equipo', imageUrl: '/images/Equipo/1-6.jpg', order: 55 },
 ];
 
-// Fallback videos (Exactly the 4 from the current live site)
-export const fallbackVideos: VideoItem[] = [
-  {
-    title: 'RECORRIDO VIRTUAL',
-    category: 'instalaciones',
-    videoUrl: '/videos/recorrido-virtual.mp4',
-    featured: true,
-    description: 'Recorrido virtual por las modernas instalaciones de Saucedo Legal.',
-    order: 1
+// Fallback videos localized for each language (4 institutional videos)
+export const localizedFallbackVideos: Record<Language, VideoItem[]> = {
+  es: [
+    {
+      title: 'RECORRIDO VIRTUAL',
+      category: 'instalaciones',
+      videoUrl: '/videos/recorrido-virtual.mp4',
+      featured: true,
+      description: 'Recorrido virtual por las modernas instalaciones de Saucedo Legal.',
+      order: 1,
+    },
+    {
+      title: 'QUIÉNES SOMOS',
+      category: 'nosotros',
+      videoUrl: '/videos/quienes-somos.mp4',
+      featured: false,
+      description: 'Conoce nuestra historia y el equipo detrás de Saucedo Consultoría Jurídica.',
+      order: 2,
+    },
+    {
+      title: 'INAUGURACIÓN',
+      category: 'eventos',
+      videoUrl: '/videos/saucedo-inauguracion.mp4',
+      featured: false,
+      description: 'Inauguración de nuestras instalaciones corporativas en Saltillo.',
+      order: 3,
+    },
+    {
+      title: 'NUESTROS SERVICIOS',
+      category: 'servicios',
+      videoUrl: '/videos/abogados-saltillo-saucedo-legal.webm',
+      featured: false,
+      description: 'Servicios jurídicos especializados y asesoría legal corporativa integral.',
+      order: 4,
+    },
+  ],
+  en: [
+    {
+      title: 'VIRTUAL TOUR',
+      category: 'facilities',
+      videoUrl: '/videos/recorrido-virtual.mp4',
+      featured: true,
+      description: 'Virtual tour of the modern corporate facilities at Saucedo Legal.',
+      order: 1,
+    },
+    {
+      title: 'ABOUT US',
+      category: 'about',
+      videoUrl: '/videos/quienes-somos.mp4',
+      featured: false,
+      description: 'Learn about our history and the team behind Saucedo Legal Consulting.',
+      order: 2,
+    },
+    {
+      title: 'GRAND OPENING',
+      category: 'events',
+      videoUrl: '/videos/saucedo-inauguracion.mp4',
+      featured: false,
+      description: 'Grand opening of our corporate facilities in Saltillo, Coahuila.',
+      order: 3,
+    },
+    {
+      title: 'OUR SERVICES',
+      category: 'services',
+      videoUrl: '/videos/abogados-saltillo-saucedo-legal.webm',
+      featured: false,
+      description: 'Specialized legal services and comprehensive corporate legal counsel.',
+      order: 4,
+    },
+  ],
+  zh: [
+    {
+      title: '全景虚拟导览',
+      category: '设施环境',
+      videoUrl: '/videos/recorrido-virtual.mp4',
+      featured: true,
+      description: '走进 Saucedo Legal 现代化办公大楼与调解中心。',
+      order: 1,
+    },
+    {
+      title: '关于我们',
+      category: '机构介绍',
+      videoUrl: '/videos/quienes-somos.mp4',
+      featured: false,
+      description: '了解 Saucedo Legal 的发展历程与专业法律团队。',
+      order: 2,
+    },
+    {
+      title: '开业盛典',
+      category: '重大活动',
+      videoUrl: '/videos/saucedo-inauguracion.mp4',
+      featured: false,
+      description: '我们在萨尔蒂约的全新企业总部大楼落成揭幕典礼。',
+      order: 3,
+    },
+    {
+      title: '核心业务',
+      category: '法律服务',
+      videoUrl: '/videos/abogados-saltillo-saucedo-legal.webm',
+      featured: false,
+      description: '全方位企业商事顾问、诉讼与专业法律服务。',
+      order: 4,
+    },
+  ],
+  ko: [
+    {
+      title: '가상 투어',
+      category: '시설 안내',
+      videoUrl: '/videos/recorrido-virtual.mp4',
+      featured: true,
+      description: 'Saucedo Legal의 최첨단 본사 및 시설 가상 투어.',
+      order: 1,
+    },
+    {
+      title: '회사 소개',
+      category: '로펌 소개',
+      videoUrl: '/videos/quienes-somos.mp4',
+      featured: false,
+      description: 'Saucedo Legal의 역사와 전문 변호인단을 만나보세요.',
+      order: 2,
+    },
+    {
+      title: '개소식',
+      category: '주요 행사',
+      videoUrl: '/videos/saucedo-inauguracion.mp4',
+      featured: false,
+      description: '코아우일라주 살티요 본사 사옥 개소식 현장.',
+      order: 3,
+    },
+    {
+      title: '법률 서비스',
+      category: '업무 분야',
+      videoUrl: '/videos/abogados-saltillo-saucedo-legal.webm',
+      featured: false,
+      description: '기업 종합 법률 자문 및 전문 법률 서비스 안내.',
+      order: 4,
+    },
+  ],
+};
+
+export const getFallbackVideos = (locale: Language = 'es'): VideoItem[] => {
+  return localizedFallbackVideos[locale] || localizedFallbackVideos.es;
+};
+
+export const fallbackVideos: VideoItem[] = localizedFallbackVideos.es;
+
+const VIDEO_META_MAP: Record<Language, Record<string, { title: string; description?: string }>> = {
+  en: {
+    'RECORRIDO VIRTUAL': { title: 'VIRTUAL TOUR', description: 'Virtual tour of the modern corporate facilities at Saucedo Legal.' },
+    'QUIENES SOMOS': { title: 'ABOUT US', description: 'Learn about our history and the team behind Saucedo Legal Consulting.' },
+    'QUIÉNES SOMOS': { title: 'ABOUT US', description: 'Learn about our history and the team behind Saucedo Legal Consulting.' },
+    'INAUGURACIÓN': { title: 'GRAND OPENING', description: 'Grand opening of our corporate facilities in Saltillo, Coahuila.' },
+    'INAUGURACION': { title: 'GRAND OPENING', description: 'Grand opening of our corporate facilities in Saltillo, Coahuila.' },
+    'NUESTROS SERVICIOS': { title: 'OUR SERVICES', description: 'Specialized legal services and comprehensive corporate legal counsel.' },
   },
-  {
-    title: 'QUIENES SOMOS',
-    category: 'nosotros',
-    videoUrl: '/videos/quienes-somos.mp4',
-    featured: false,
-    description: 'Conoce nuestra historia y el equipo detrás de Saucedo Consultoría Jurídica.',
-    order: 2
+  zh: {
+    'RECORRIDO VIRTUAL': { title: '全景虚拟导览', description: '走进 Saucedo Legal 现代化办公大楼与调解中心。' },
+    'QUIENES SOMOS': { title: '关于我们', description: '了解 Saucedo Legal 的发展历程与专业法律团队。' },
+    'QUIÉNES SOMOS': { title: '关于我们', description: '了解 Saucedo Legal 的发展历程与专业法律团队。' },
+    'INAUGURACIÓN': { title: '开业盛典', description: '我们在萨尔蒂约的全新企业总部大楼落成揭幕典礼。' },
+    'INAUGURACION': { title: '开业盛典', description: '我们在萨尔蒂约的全新企业总部大楼落成揭幕典礼。' },
+    'NUESTROS SERVICIOS': { title: '核心业务', description: '全方位企业商事顾问、诉讼与专业法律服务。' },
   },
-  {
-    title: 'INAUGURACIÓN',
-    category: 'eventos',
-    videoUrl: '/videos/saucedo-inauguracion.mp4',
-    featured: false,
-    description: 'Inauguración de nuestras instalaciones corporativas en Saltillo.',
-    order: 3
+  ko: {
+    'RECORRIDO VIRTUAL': { title: '가상 투어', description: 'Saucedo Legal의 최첨단 본사 및 시설 가상 투어.' },
+    'QUIENES SOMOS': { title: '회사 소개', description: 'Saucedo Legal의 역사와 전문 변호인단을 만나보세요.' },
+    'QUIÉNES SOMOS': { title: '회사 소개', description: 'Saucedo Legal의 역사와 전문 변호인단을 만나보세요.' },
+    'INAUGURACIÓN': { title: '개소식', description: '코아우일라주 살티요 본사 사옥 개소식 현장.' },
+    'INAUGURACION': { title: '개소식', description: '코아우일라주 살티요 본사 사옥 개소식 현장.' },
+    'NUESTROS SERVICIOS': { title: '법률 서비스', description: '기업 종합 법률 자문 및 전문 법률 서비스 안내.' },
   },
-  {
-    title: 'NUESTROS SERVICIOS',
-    category: 'servicios',
-    videoUrl: '/videos/abogados-saltillo-saucedo-legal.webm',
-    featured: false,
-    description: 'Servicios jurídicos especializados y asesoría legal corporativa integral.',
-    order: 4
-  }
-];
+  es: {},
+};
+
+export function getLocalizedVideoMeta(title?: string, locale: Language = 'es') {
+  if (!title || locale === 'es') return null;
+  const clean = title.trim().toUpperCase();
+  return VIDEO_META_MAP[locale]?.[clean] || null;
+}
 
 export const api = {
   async getTeam(locale: Language = 'es'): Promise<TeamMember[]> {
@@ -428,13 +572,23 @@ export const api = {
         const data = await res.json();
         if (data.docs && data.docs.length > 0) {
           console.log('[Payload CMS] Videos cargados desde backend:', data.docs.length, 'videos');
+          if (locale !== 'es') {
+            return data.docs.map((doc: VideoItem) => {
+              const meta = getLocalizedVideoMeta(doc.title, locale);
+              return {
+                ...doc,
+                title: meta?.title || doc.title,
+                description: meta?.description || doc.description,
+              };
+            });
+          }
           return data.docs;
         }
       }
     } catch (err) {
       console.warn('[Payload CMS] No se pudo conectar al backend para videos, usando fallback.', err);
     }
-    return fallbackVideos;
+    return getFallbackVideos(locale);
   },
 
   async getPortada(locale: Language = 'es'): Promise<PortadaConfig | null> {

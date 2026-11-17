@@ -3,7 +3,7 @@
 import React, { useState, useEffect } from 'react';
 import { useLanguage } from '@/i18n/LanguageContext';
 import { VideoItem } from '@/types';
-import { api, fallbackVideos } from '@/services/api';
+import { api, getFallbackVideos, fallbackVideos } from '@/services/api';
 import { getMediaUrl } from '@/utils/media';
 import { X, Play } from 'lucide-react';
 
@@ -39,11 +39,12 @@ function getVideoSource(vid: VideoItem): { fileUrl: string | null; youtubeEmbed:
 
 export default function VideosPage() {
   const { t, language } = useLanguage();
-  const [videos, setVideos] = useState<VideoItem[]>(fallbackVideos);
+  const [videos, setVideos] = useState<VideoItem[]>(() => getFallbackVideos(language));
   const [selectedVideo, setSelectedVideo] = useState<VideoItem | null>(null);
 
   useEffect(() => {
     let isMounted = true;
+    setVideos(getFallbackVideos(language));
     api.getVideos(language).then((data) => {
       if (isMounted && data && data.length > 0) {
         setVideos(data);
@@ -53,6 +54,13 @@ export default function VideosPage() {
       isMounted = false;
     };
   }, [language]);
+
+  useEffect(() => {
+    if (selectedVideo) {
+      const match = videos.find((v) => v.order === selectedVideo.order || v.id === selectedVideo.id);
+      if (match) setSelectedVideo(match);
+    }
+  }, [videos]);
 
   const selectedSource = selectedVideo ? getVideoSource(selectedVideo) : null;
 

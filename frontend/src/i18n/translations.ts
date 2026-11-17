@@ -80,6 +80,8 @@ export interface Translations {
     allVideos: string;
     institutional: string;
     aboutFirm: string;
+    inauguration: string;
+    ourServices: string;
     podcast: string;
     watchOnYouTube: string;
   };
@@ -266,6 +268,8 @@ export const translations: Record<Language, Translations> = {
       allVideos: 'Todos los Videos',
       institutional: 'Recorrido Virtual',
       aboutFirm: 'Quiénes Somos',
+      inauguration: 'Inauguración',
+      ourServices: 'Nuestros Servicios',
       podcast: 'Podcast Entre Abogados',
       watchOnYouTube: 'Ver en YouTube',
     },
@@ -450,6 +454,8 @@ export const translations: Record<Language, Translations> = {
       allVideos: 'All Videos',
       institutional: 'Virtual Tour',
       aboutFirm: 'About Our Firm',
+      inauguration: 'Grand Opening',
+      ourServices: 'Our Services',
       podcast: 'Legal Podcast',
       watchOnYouTube: 'Watch on YouTube',
     },
@@ -633,7 +639,9 @@ export const translations: Record<Language, Translations> = {
       subtitle: '走进我们的现代化办公大楼与调解中心，了解律所理念与业务专长。',
       allVideos: '全部视频',
       institutional: '全景虚拟导览',
-      aboutFirm: '律所宣传片',
+      aboutFirm: '关于我们',
+      inauguration: '开业盛典',
+      ourServices: '核心业务',
       podcast: '法律视点播客',
       watchOnYouTube: '在 YouTube 观看',
     },
@@ -816,8 +824,10 @@ export const translations: Record<Language, Translations> = {
       title: '홍보 영상',
       subtitle: '최첨단 본사 사무실 투어와 로펌의 철학 및 방송 활동 영상을 확인해 보세요.',
       allVideos: '전체 영상',
-      institutional: '사옥 투어',
-      aboutFirm: '로펌 소개 영상',
+      institutional: '가상 투어',
+      aboutFirm: '회사 소개',
+      inauguration: '개소식',
+      ourServices: '법률 서비스',
       podcast: '법률 팟캐스트',
       watchOnYouTube: 'YouTube에서 시청',
     },
